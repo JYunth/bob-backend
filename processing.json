@@ -1,0 +1,5012 @@
+[
+  {
+    "id": 164,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 104.52,
+    "total_score": 92451,
+    "wishlist_count": 8983,
+    "bar_count": 53771,
+    "ranking": 1
+  },
+  {
+    "id": 2848,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 66.25,
+    "total_score": 82217,
+    "wishlist_count": 8744,
+    "bar_count": 47484,
+    "ranking": 2
+  },
+  {
+    "id": 4984,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 94.43,
+    "total_score": 61777,
+    "wishlist_count": 8161,
+    "bar_count": 34141,
+    "ranking": 3
+  },
+  {
+    "id": 466,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 41.82,
+    "total_score": 49610,
+    "wishlist_count": 3403,
+    "bar_count": 33914,
+    "ranking": 4
+  },
+  {
+    "id": 158,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 116.66,
+    "total_score": 40001,
+    "wishlist_count": 8098,
+    "bar_count": 17914,
+    "ranking": 5
+  },
+  {
+    "id": 2803,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 58.63,
+    "total_score": 39429,
+    "wishlist_count": 3810,
+    "bar_count": 25850,
+    "ranking": 6
+  },
+  {
+    "id": 1586,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 178.62,
+    "total_score": 25142,
+    "wishlist_count": 5835,
+    "bar_count": 11106,
+    "ranking": 7
+  },
+  {
+    "id": 2993,
+    "abv": 67.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 147.92,
+    "total_score": 23209,
+    "wishlist_count": 6685,
+    "bar_count": 5759,
+    "ranking": 8
+  },
+  {
+    "id": 4662,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 75.24,
+    "total_score": 20707,
+    "wishlist_count": 1832,
+    "bar_count": 13049,
+    "ranking": 9
+  },
+  {
+    "id": 409,
+    "abv": 57,
+    "spirit_type": "Bourbon",
+    "fair_price": 188.33,
+    "total_score": 20287,
+    "wishlist_count": 5486,
+    "bar_count": 8768,
+    "ranking": 10
+  },
+  {
+    "id": 5120,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 166.45,
+    "total_score": 20267,
+    "wishlist_count": 4889,
+    "bar_count": 9593,
+    "ranking": 11
+  },
+  {
+    "id": 13266,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 62.34,
+    "total_score": 18850,
+    "wishlist_count": 1948,
+    "bar_count": 11536,
+    "ranking": 12
+  },
+  {
+    "id": 13089,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 74.17,
+    "total_score": 17328,
+    "wishlist_count": 2058,
+    "bar_count": 10574,
+    "ranking": 13
+  },
+  {
+    "id": 150,
+    "abv": 62.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 73.06,
+    "total_score": 16891,
+    "wishlist_count": 2392,
+    "bar_count": 9092,
+    "ranking": 14
+  },
+  {
+    "id": 159,
+    "abv": 51.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 232.52,
+    "total_score": 14458,
+    "wishlist_count": 3680,
+    "bar_count": 6267,
+    "ranking": 15
+  },
+  {
+    "id": 4905,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 147.57,
+    "total_score": 14337,
+    "wishlist_count": 3855,
+    "bar_count": 5527,
+    "ranking": 16
+  },
+  {
+    "id": 1296,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 86.81,
+    "total_score": 13625,
+    "wishlist_count": 1444,
+    "bar_count": 8634,
+    "ranking": 17
+  },
+  {
+    "id": 1805,
+    "abv": 45,
+    "spirit_type": "Rye",
+    "fair_price": 46.77,
+    "total_score": 13399,
+    "wishlist_count": 776,
+    "bar_count": 9543,
+    "ranking": 18
+  },
+  {
+    "id": 1816,
+    "abv": 58.4,
+    "spirit_type": "Bourbon",
+    "fair_price": 70.61,
+    "total_score": 13373,
+    "wishlist_count": 2054,
+    "bar_count": 7803,
+    "ranking": 19
+  },
+  {
+    "id": 2336,
+    "abv": 45.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 66.85,
+    "total_score": 12705,
+    "wishlist_count": 1456,
+    "bar_count": 8042,
+    "ranking": 20
+  },
+  {
+    "id": 1522,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 56.99,
+    "total_score": 12391,
+    "wishlist_count": 1368,
+    "bar_count": 7831,
+    "ranking": 21
+  },
+  {
+    "id": 263,
+    "abv": 57.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 72.85,
+    "total_score": 11816,
+    "wishlist_count": 1919,
+    "bar_count": 6881,
+    "ranking": 22
+  },
+  {
+    "id": 3088,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 219.98,
+    "total_score": 10747,
+    "wishlist_count": 3845,
+    "bar_count": 2515,
+    "ranking": 23
+  },
+  {
+    "id": 4589,
+    "abv": 47.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 231.09,
+    "total_score": 10094,
+    "wishlist_count": 4091,
+    "bar_count": 2643,
+    "ranking": 24
+  },
+  {
+    "id": 4742,
+    "abv": 57,
+    "spirit_type": "Bourbon",
+    "fair_price": 40.74,
+    "total_score": 10055,
+    "wishlist_count": 1084,
+    "bar_count": 6180,
+    "ranking": 25
+  },
+  {
+    "id": 15946,
+    "abv": 58,
+    "spirit_type": "Bourbon",
+    "fair_price": 107.24,
+    "total_score": 9863,
+    "wishlist_count": 1450,
+    "bar_count": 5466,
+    "ranking": 26
+  },
+  {
+    "id": 2839,
+    "abv": 40,
+    "spirit_type": "Canadian Whisky",
+    "fair_price": 95.28,
+    "total_score": 9529,
+    "wishlist_count": 1502,
+    "bar_count": 5000,
+    "ranking": 27
+  },
+  {
+    "id": 2193,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 32.19,
+    "total_score": 9513,
+    "wishlist_count": 736,
+    "bar_count": 2892,
+    "ranking": 28
+  },
+  {
+    "id": 1643,
+    "abv": 46.85,
+    "spirit_type": "Bourbon",
+    "fair_price": 45.11,
+    "total_score": 9413,
+    "wishlist_count": 950,
+    "bar_count": 5913,
+    "ranking": 29
+  },
+  {
+    "id": 1165,
+    "abv": 60,
+    "spirit_type": "Bourbon",
+    "fair_price": 68.79,
+    "total_score": 8466,
+    "wishlist_count": 1621,
+    "bar_count": 6536,
+    "ranking": 30
+  },
+  {
+    "id": 3655,
+    "abv": 43.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 69.02,
+    "total_score": 8236,
+    "wishlist_count": 750,
+    "bar_count": 5467,
+    "ranking": 31
+  },
+  {
+    "id": 4952,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 236.83,
+    "total_score": 8228,
+    "wishlist_count": 1366,
+    "bar_count": 4117,
+    "ranking": 32
+  },
+  {
+    "id": 1587,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 73.74,
+    "total_score": 8210,
+    "wishlist_count": 765,
+    "bar_count": 5282,
+    "ranking": 33
+  },
+  {
+    "id": 4792,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 45.78,
+    "total_score": 8025,
+    "wishlist_count": 799,
+    "bar_count": 5232,
+    "ranking": 34
+  },
+  {
+    "id": 1821,
+    "abv": 55,
+    "spirit_type": "Bourbon",
+    "fair_price": 81.44,
+    "total_score": 8022,
+    "wishlist_count": 1403,
+    "bar_count": 4588,
+    "ranking": 35
+  },
+  {
+    "id": 355,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 85.23,
+    "total_score": 7772,
+    "wishlist_count": 677,
+    "bar_count": 5082,
+    "ranking": 37
+  },
+  {
+    "id": 12843,
+    "abv": 63.35,
+    "spirit_type": "Bourbon",
+    "fair_price": 269.23,
+    "total_score": 7757,
+    "wishlist_count": 2573,
+    "bar_count": 3059,
+    "ranking": 38
+  },
+  {
+    "id": 2214,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 67.48,
+    "total_score": 7673,
+    "wishlist_count": 1167,
+    "bar_count": 4673,
+    "ranking": 39
+  },
+  {
+    "id": 1211,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 576.68,
+    "total_score": 7590,
+    "wishlist_count": 2100,
+    "bar_count": 2773,
+    "ranking": 40
+  },
+  {
+    "id": 16078,
+    "abv": 57.4,
+    "spirit_type": "Bourbon",
+    "fair_price": 246.23,
+    "total_score": 7586,
+    "wishlist_count": 2297,
+    "bar_count": 2582,
+    "ranking": 41
+  },
+  {
+    "id": 1074,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 36.14,
+    "total_score": 7542,
+    "wishlist_count": 941,
+    "bar_count": 4780,
+    "ranking": 42
+  },
+  {
+    "id": 1282,
+    "abv": 55,
+    "spirit_type": "Rye",
+    "fair_price": 89.01,
+    "total_score": 7534,
+    "wishlist_count": 595,
+    "bar_count": 4928,
+    "ranking": 43
+  },
+  {
+    "id": 873,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 90.38,
+    "total_score": 7487,
+    "wishlist_count": 700,
+    "bar_count": 4544,
+    "ranking": 44
+  },
+  {
+    "id": 1629,
+    "abv": 45.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 72.44,
+    "total_score": 7458,
+    "wishlist_count": 774,
+    "bar_count": 5214,
+    "ranking": 45
+  },
+  {
+    "id": 3574,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 84.64,
+    "total_score": 7312,
+    "wishlist_count": 1002,
+    "bar_count": 4756,
+    "ranking": 46
+  },
+  {
+    "id": 1510,
+    "abv": 64.6,
+    "spirit_type": "Bourbon",
+    "fair_price": 133.7,
+    "total_score": 7250,
+    "wishlist_count": 1728,
+    "bar_count": 3305,
+    "ranking": 47
+  },
+  {
+    "id": 3300,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 709.41,
+    "total_score": 7110,
+    "wishlist_count": 3453,
+    "bar_count": 1065,
+    "ranking": 48
+  },
+  {
+    "id": 33209,
+    "abv": 58.6,
+    "spirit_type": "Bourbon",
+    "fair_price": 362.17,
+    "total_score": 6897,
+    "wishlist_count": 3960,
+    "bar_count": 1156,
+    "ranking": 49
+  },
+  {
+    "id": 2879,
+    "abv": 45.6,
+    "spirit_type": "Bourbon",
+    "fair_price": 87.85,
+    "total_score": 6813,
+    "wishlist_count": 1776,
+    "bar_count": 3234,
+    "ranking": 50
+  },
+  {
+    "id": 3819,
+    "abv": 49.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 68,
+    "total_score": 6683,
+    "wishlist_count": 1035,
+    "bar_count": 4181,
+    "ranking": 51
+  },
+  {
+    "id": 21319,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 48.84,
+    "total_score": 6641,
+    "wishlist_count": 309,
+    "bar_count": 4464,
+    "ranking": 52
+  },
+  {
+    "id": 3660,
+    "abv": 45.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 54.2,
+    "total_score": 6608,
+    "wishlist_count": 685,
+    "bar_count": 4425,
+    "ranking": 53
+  },
+  {
+    "id": 4739,
+    "abv": 64.05,
+    "spirit_type": "Bourbon",
+    "fair_price": 366.21,
+    "total_score": 6594,
+    "wishlist_count": 2977,
+    "bar_count": 1471,
+    "ranking": 54
+  },
+  {
+    "id": 4245,
+    "abv": 64,
+    "spirit_type": "Bourbon",
+    "fair_price": 94.49,
+    "total_score": 6537,
+    "wishlist_count": 1092,
+    "bar_count": 3777,
+    "ranking": 55
+  },
+  {
+    "id": 4448,
+    "abv": 48.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 252.98,
+    "total_score": 6456,
+    "wishlist_count": 2946,
+    "bar_count": 1441,
+    "ranking": 56
+  },
+  {
+    "id": 477,
+    "abv": 70.7,
+    "spirit_type": "Bourbon",
+    "fair_price": 843.74,
+    "total_score": 6424,
+    "wishlist_count": 3283,
+    "bar_count": 778,
+    "ranking": 57
+  },
+  {
+    "id": 4762,
+    "abv": 64,
+    "spirit_type": "Whiskey",
+    "fair_price": 86.27,
+    "total_score": 6225,
+    "wishlist_count": 779,
+    "bar_count": 4021,
+    "ranking": 58
+  },
+  {
+    "id": 4255,
+    "abv": 45.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 72.02,
+    "total_score": 6221,
+    "wishlist_count": 531,
+    "bar_count": 4145,
+    "ranking": 59
+  },
+  {
+    "id": 620,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 82.63,
+    "total_score": 5928,
+    "wishlist_count": 365,
+    "bar_count": 4026,
+    "ranking": 60
+  },
+  {
+    "id": 4373,
+    "abv": 52,
+    "spirit_type": "Bourbon",
+    "fair_price": 77.21,
+    "total_score": 5865,
+    "wishlist_count": 633,
+    "bar_count": 3714,
+    "ranking": 61
+  },
+  {
+    "id": 3671,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 171.45,
+    "total_score": 5810,
+    "wishlist_count": 1091,
+    "bar_count": 3152,
+    "ranking": 62
+  },
+  {
+    "id": 4708,
+    "abv": 50.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 39.44,
+    "total_score": 5764,
+    "wishlist_count": 726,
+    "bar_count": 3485,
+    "ranking": 63
+  },
+  {
+    "id": 519,
+    "abv": 47.8,
+    "spirit_type": "Bourbon",
+    "fair_price": 958.61,
+    "total_score": 5689,
+    "wishlist_count": 2453,
+    "bar_count": 254,
+    "ranking": 64
+  },
+  {
+    "id": 15947,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 76.79,
+    "total_score": 5648,
+    "wishlist_count": 862,
+    "bar_count": 3337,
+    "ranking": 65
+  },
+  {
+    "id": 15966,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 50.86,
+    "total_score": 5436,
+    "wishlist_count": 666,
+    "bar_count": 3401,
+    "ranking": 66
+  },
+  {
+    "id": 13668,
+    "abv": 50.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 66.69,
+    "total_score": 5428,
+    "wishlist_count": 786,
+    "bar_count": 2909,
+    "ranking": 67
+  },
+  {
+    "id": 1702,
+    "abv": 49.3,
+    "spirit_type": "Rye",
+    "fair_price": 212.92,
+    "total_score": 5360,
+    "wishlist_count": 1519,
+    "bar_count": 1749,
+    "ranking": 68
+  },
+  {
+    "id": 3959,
+    "abv": 67.4,
+    "spirit_type": "Bourbon",
+    "fair_price": 563.81,
+    "total_score": 5255,
+    "wishlist_count": 2829,
+    "bar_count": 509,
+    "ranking": 69
+  },
+  {
+    "id": 4002,
+    "abv": 47.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 346.85,
+    "total_score": 5190,
+    "wishlist_count": 1972,
+    "bar_count": 1699,
+    "ranking": 70
+  },
+  {
+    "id": 987,
+    "abv": 45.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 100.87,
+    "total_score": 5119,
+    "wishlist_count": 792,
+    "bar_count": 2999,
+    "ranking": 71
+  },
+  {
+    "id": 13584,
+    "abv": 65.15,
+    "spirit_type": "Rye",
+    "fair_price": 99.92,
+    "total_score": 5059,
+    "wishlist_count": 720,
+    "bar_count": 3201,
+    "ranking": 72
+  },
+  {
+    "id": 3694,
+    "abv": 45.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 736.03,
+    "total_score": 5024,
+    "wishlist_count": 1084,
+    "bar_count": 2083,
+    "ranking": 73
+  },
+  {
+    "id": 1641,
+    "abv": 50.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 92.34,
+    "total_score": 4878,
+    "wishlist_count": 515,
+    "bar_count": 3274,
+    "ranking": 74
+  },
+  {
+    "id": 17951,
+    "abv": 52,
+    "spirit_type": "Bourbon",
+    "fair_price": 87.86,
+    "total_score": 4794,
+    "wishlist_count": 404,
+    "bar_count": 3290,
+    "ranking": 75
+  },
+  {
+    "id": 144,
+    "abv": 67.1,
+    "spirit_type": "Bourbon",
+    "fair_price": 104.95,
+    "total_score": 4765,
+    "wishlist_count": 1205,
+    "bar_count": 1713,
+    "ranking": 76
+  },
+  {
+    "id": 3773,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 49.36,
+    "total_score": 4736,
+    "wishlist_count": 493,
+    "bar_count": 3081,
+    "ranking": 77
+  },
+  {
+    "id": 1269,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 42.09,
+    "total_score": 4699,
+    "wishlist_count": 595,
+    "bar_count": 2967,
+    "ranking": 78
+  },
+  {
+    "id": 18530,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 227.89,
+    "total_score": 4675,
+    "wishlist_count": 559,
+    "bar_count": 2705,
+    "ranking": 79
+  },
+  {
+    "id": 2755,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 37.87,
+    "total_score": 4663,
+    "wishlist_count": 424,
+    "bar_count": 3131,
+    "ranking": 80
+  },
+  {
+    "id": 17318,
+    "abv": 48.5,
+    "spirit_type": "Whiskey",
+    "fair_price": 179.31,
+    "total_score": 4620,
+    "wishlist_count": 750,
+    "bar_count": 2526,
+    "ranking": 81
+  },
+  {
+    "id": 3651,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 124.03,
+    "total_score": 4605,
+    "wishlist_count": 534,
+    "bar_count": 2658,
+    "ranking": 82
+  },
+  {
+    "id": 14150,
+    "abv": 48.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 96.99,
+    "total_score": 4503,
+    "wishlist_count": 902,
+    "bar_count": 2447,
+    "ranking": 83
+  },
+  {
+    "id": 3731,
+    "abv": 0.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 65.06,
+    "total_score": 4433,
+    "wishlist_count": 1128,
+    "bar_count": 2506,
+    "ranking": 84
+  },
+  {
+    "id": 3674,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 44.68,
+    "total_score": 4365,
+    "wishlist_count": 561,
+    "bar_count": 2445,
+    "ranking": 85
+  },
+  {
+    "id": 20691,
+    "abv": 66.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 146.32,
+    "total_score": 4296,
+    "wishlist_count": 750,
+    "bar_count": 2440,
+    "ranking": 86
+  },
+  {
+    "id": 1217,
+    "abv": 58,
+    "spirit_type": "Bourbon",
+    "fair_price": 261.75,
+    "total_score": 4292,
+    "wishlist_count": 740,
+    "bar_count": 2085,
+    "ranking": 87
+  },
+  {
+    "id": 1966,
+    "abv": 45,
+    "spirit_type": "Whiskey",
+    "fair_price": 238.67,
+    "total_score": 4235,
+    "wishlist_count": 530,
+    "bar_count": 2093,
+    "ranking": 88
+  },
+  {
+    "id": 20783,
+    "abv": 63.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 104.33,
+    "total_score": 4215,
+    "wishlist_count": 546,
+    "bar_count": 2240,
+    "ranking": 89
+  },
+  {
+    "id": 17248,
+    "abv": 62.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 33.47,
+    "total_score": 4135,
+    "wishlist_count": 411,
+    "bar_count": 2809,
+    "ranking": 90
+  },
+  {
+    "id": 21356,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 183.86,
+    "total_score": 4109,
+    "wishlist_count": 853,
+    "bar_count": 2050,
+    "ranking": 91
+  },
+  {
+    "id": 3775,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 54.12,
+    "total_score": 4068,
+    "wishlist_count": 382,
+    "bar_count": 2519,
+    "ranking": 92
+  },
+  {
+    "id": 46254,
+    "abv": 50.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 75.72,
+    "total_score": 3994,
+    "wishlist_count": 704,
+    "bar_count": 2392,
+    "ranking": 93
+  },
+  {
+    "id": 2969,
+    "abv": 58.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 106.38,
+    "total_score": 3986,
+    "wishlist_count": 533,
+    "bar_count": 2253,
+    "ranking": 94
+  },
+  {
+    "id": 4299,
+    "abv": 47,
+    "spirit_type": "Whiskey",
+    "fair_price": 76.97,
+    "total_score": 3965,
+    "wishlist_count": 290,
+    "bar_count": 2743,
+    "ranking": 95
+  },
+  {
+    "id": 1046,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 3048.26,
+    "total_score": 3864,
+    "wishlist_count": 1476,
+    "bar_count": 64,
+    "ranking": 96
+  },
+  {
+    "id": 17358,
+    "abv": 74,
+    "spirit_type": "Whiskey",
+    "fair_price": 276.99,
+    "total_score": 3855,
+    "wishlist_count": 1352,
+    "bar_count": 543,
+    "ranking": 97
+  },
+  {
+    "id": 16960,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 71.49,
+    "total_score": 3823,
+    "wishlist_count": 350,
+    "bar_count": 2915,
+    "ranking": 98
+  },
+  {
+    "id": 2533,
+    "abv": 60,
+    "spirit_type": "Bourbon",
+    "fair_price": 85.23,
+    "total_score": 3789,
+    "wishlist_count": 304,
+    "bar_count": 2543,
+    "ranking": 99
+  },
+  {
+    "id": 803,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 50.33,
+    "total_score": 3756,
+    "wishlist_count": 371,
+    "bar_count": 2463,
+    "ranking": 100
+  },
+  {
+    "id": 3755,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 125.56,
+    "total_score": 3749,
+    "wishlist_count": 390,
+    "bar_count": 2301,
+    "ranking": 101
+  },
+  {
+    "id": 19547,
+    "abv": 53.5,
+    "spirit_type": "Whiskey",
+    "fair_price": 188.35,
+    "total_score": 3658,
+    "wishlist_count": 874,
+    "bar_count": 1611,
+    "ranking": 102
+  },
+  {
+    "id": 16681,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 294.28,
+    "total_score": 3654,
+    "wishlist_count": 1729,
+    "bar_count": 1077,
+    "ranking": 103
+  },
+  {
+    "id": 2706,
+    "abv": 62.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 101.64,
+    "total_score": 3597,
+    "wishlist_count": 794,
+    "bar_count": 1189,
+    "ranking": 104
+  },
+  {
+    "id": 4776,
+    "abv": 45.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 1072.05,
+    "total_score": 3557,
+    "wishlist_count": 2117,
+    "bar_count": 367,
+    "ranking": 105
+  },
+  {
+    "id": 1708,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 55.59,
+    "total_score": 3532,
+    "wishlist_count": 283,
+    "bar_count": 2372,
+    "ranking": 106
+  },
+  {
+    "id": 2849,
+    "abv": 44.45,
+    "spirit_type": "Bourbon",
+    "fair_price": 128.09,
+    "total_score": 3528,
+    "wishlist_count": 654,
+    "bar_count": 1811,
+    "ranking": 107
+  },
+  {
+    "id": 2769,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 69.06,
+    "total_score": 3515,
+    "wishlist_count": 622,
+    "bar_count": 2057,
+    "ranking": 108
+  },
+  {
+    "id": 5194,
+    "abv": 42.4,
+    "spirit_type": "Rye",
+    "fair_price": 70.36,
+    "total_score": 3470,
+    "wishlist_count": 294,
+    "bar_count": 2513,
+    "ranking": 109
+  },
+  {
+    "id": 3317,
+    "abv": 45.7,
+    "spirit_type": "Bourbon",
+    "fair_price": 205.5,
+    "total_score": 3446,
+    "wishlist_count": 1544,
+    "bar_count": 989,
+    "ranking": 110
+  },
+  {
+    "id": 15948,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 46.7,
+    "total_score": 3444,
+    "wishlist_count": 465,
+    "bar_count": 2160,
+    "ranking": 111
+  },
+  {
+    "id": 4948,
+    "abv": 64.75,
+    "spirit_type": "Rye",
+    "fair_price": 530.79,
+    "total_score": 3440,
+    "wishlist_count": 1047,
+    "bar_count": 1231,
+    "ranking": 112
+  },
+  {
+    "id": 2353,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 174.28,
+    "total_score": 3432,
+    "wishlist_count": 916,
+    "bar_count": 1480,
+    "ranking": 113
+  },
+  {
+    "id": 3958,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 52.11,
+    "total_score": 3427,
+    "wishlist_count": 249,
+    "bar_count": 2395,
+    "ranking": 114
+  },
+  {
+    "id": 4450,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 58.32,
+    "total_score": 3427,
+    "wishlist_count": 185,
+    "bar_count": 2421,
+    "ranking": 114
+  },
+  {
+    "id": 17176,
+    "abv": 54.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 120.88,
+    "total_score": 3406,
+    "wishlist_count": 679,
+    "bar_count": 1914,
+    "ranking": 116
+  },
+  {
+    "id": 7140,
+    "abv": 15,
+    "spirit_type": "Liqueurs",
+    "fair_price": 36.72,
+    "total_score": 3357,
+    "wishlist_count": 140,
+    "bar_count": 2488,
+    "ranking": 117
+  },
+  {
+    "id": 14409,
+    "abv": 45.5,
+    "spirit_type": "Whiskey",
+    "fair_price": 127.96,
+    "total_score": 3342,
+    "wishlist_count": 438,
+    "bar_count": 2042,
+    "ranking": 118
+  },
+  {
+    "id": 1462,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 39.24,
+    "total_score": 3324,
+    "wishlist_count": 275,
+    "bar_count": 2186,
+    "ranking": 119
+  },
+  {
+    "id": 4576,
+    "abv": 46.5,
+    "spirit_type": "Rye",
+    "fair_price": 287.59,
+    "total_score": 3292,
+    "wishlist_count": 663,
+    "bar_count": 1576,
+    "ranking": 120
+  },
+  {
+    "id": 429,
+    "abv": 47.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 81.93,
+    "total_score": 3261,
+    "wishlist_count": 342,
+    "bar_count": 2071,
+    "ranking": 121
+  },
+  {
+    "id": 1663,
+    "abv": 40,
+    "spirit_type": "Irish Whiskey",
+    "fair_price": 80.59,
+    "total_score": 3233,
+    "wishlist_count": 511,
+    "bar_count": 1844,
+    "ranking": 122
+  },
+  {
+    "id": 21689,
+    "abv": 35,
+    "spirit_type": "Canadian Whisky",
+    "fair_price": 43.69,
+    "total_score": 3204,
+    "wishlist_count": 94,
+    "bar_count": 2376,
+    "ranking": 123
+  },
+  {
+    "id": 16484,
+    "abv": 52.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 158.66,
+    "total_score": 3176,
+    "wishlist_count": 580,
+    "bar_count": 1767,
+    "ranking": 124
+  },
+  {
+    "id": 4598,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 165.4,
+    "total_score": 3168,
+    "wishlist_count": 782,
+    "bar_count": 1241,
+    "ranking": 125
+  },
+  {
+    "id": 15985,
+    "abv": 52.5,
+    "spirit_type": "Whiskey",
+    "fair_price": 97.54,
+    "total_score": 3114,
+    "wishlist_count": 441,
+    "bar_count": 1523,
+    "ranking": 126
+  },
+  {
+    "id": 17021,
+    "abv": 58.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 188.56,
+    "total_score": 3102,
+    "wishlist_count": 882,
+    "bar_count": 1032,
+    "ranking": 127
+  },
+  {
+    "id": 4486,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 80.71,
+    "total_score": 3084,
+    "wishlist_count": 753,
+    "bar_count": 1588,
+    "ranking": 128
+  },
+  {
+    "id": 1636,
+    "abv": 55,
+    "spirit_type": "Bourbon",
+    "fair_price": 104.53,
+    "total_score": 3006,
+    "wishlist_count": 442,
+    "bar_count": 2026,
+    "ranking": 129
+  },
+  {
+    "id": 220,
+    "abv": 57.15,
+    "spirit_type": "Bourbon",
+    "fair_price": 93.77,
+    "total_score": 2967,
+    "wishlist_count": 273,
+    "bar_count": 1932,
+    "ranking": 130
+  },
+  {
+    "id": 3941,
+    "abv": 41.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 68.58,
+    "total_score": 2905,
+    "wishlist_count": 294,
+    "bar_count": 1932,
+    "ranking": 131
+  },
+  {
+    "id": 4593,
+    "abv": 48.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 217.88,
+    "total_score": 2884,
+    "wishlist_count": 296,
+    "bar_count": 1659,
+    "ranking": 132
+  },
+  {
+    "id": 1924,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 35.33,
+    "total_score": 2881,
+    "wishlist_count": 276,
+    "bar_count": 1655,
+    "ranking": 133
+  },
+  {
+    "id": 2594,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 681.17,
+    "total_score": 2833,
+    "wishlist_count": 1487,
+    "bar_count": 356,
+    "ranking": 134
+  },
+  {
+    "id": 14147,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 53.88,
+    "total_score": 2814,
+    "wishlist_count": 164,
+    "bar_count": 1957,
+    "ranking": 135
+  },
+  {
+    "id": 19806,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 85.75,
+    "total_score": 2774,
+    "wishlist_count": 421,
+    "bar_count": 1799,
+    "ranking": 136
+  },
+  {
+    "id": 2476,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 36.25,
+    "total_score": 2773,
+    "wishlist_count": 279,
+    "bar_count": 1773,
+    "ranking": 137
+  },
+  {
+    "id": 19971,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 93.12,
+    "total_score": 2754,
+    "wishlist_count": 270,
+    "bar_count": 1868,
+    "ranking": 138
+  },
+  {
+    "id": 1800,
+    "abv": 54,
+    "spirit_type": "Bourbon",
+    "fair_price": 166.94,
+    "total_score": 2710,
+    "wishlist_count": 586,
+    "bar_count": 1304,
+    "ranking": 139
+  },
+  {
+    "id": 19503,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 77.74,
+    "total_score": 2709,
+    "wishlist_count": 285,
+    "bar_count": 1791,
+    "ranking": 140
+  },
+  {
+    "id": 38465,
+    "abv": 55.85,
+    "spirit_type": "Bourbon",
+    "fair_price": 108.96,
+    "total_score": 2695,
+    "wishlist_count": 274,
+    "bar_count": 1898,
+    "ranking": 141
+  },
+  {
+    "id": 495,
+    "abv": 56.6,
+    "spirit_type": "Bourbon",
+    "fair_price": 65.34,
+    "total_score": 2669,
+    "wishlist_count": 301,
+    "bar_count": 1762,
+    "ranking": 142
+  },
+  {
+    "id": 19526,
+    "abv": 55,
+    "spirit_type": "Bourbon",
+    "fair_price": 117.43,
+    "total_score": 2667,
+    "wishlist_count": 93,
+    "bar_count": 1899,
+    "ranking": 143
+  },
+  {
+    "id": 16613,
+    "abv": 59.2,
+    "spirit_type": "Rye",
+    "fair_price": 94.18,
+    "total_score": 2659,
+    "wishlist_count": 263,
+    "bar_count": 1641,
+    "ranking": 144
+  },
+  {
+    "id": 3860,
+    "abv": 40,
+    "spirit_type": "Whiskey",
+    "fair_price": 35.04,
+    "total_score": 2658,
+    "wishlist_count": 196,
+    "bar_count": 1457,
+    "ranking": 145
+  },
+  {
+    "id": 966,
+    "abv": 49,
+    "spirit_type": "Bourbon",
+    "fair_price": 81.63,
+    "total_score": 2655,
+    "wishlist_count": 342,
+    "bar_count": 1728,
+    "ranking": 146
+  },
+  {
+    "id": 3249,
+    "abv": 58,
+    "spirit_type": "Rye",
+    "fair_price": 81.77,
+    "total_score": 2634,
+    "wishlist_count": 311,
+    "bar_count": 1640,
+    "ranking": 147
+  },
+  {
+    "id": 1133,
+    "abv": 50,
+    "spirit_type": "Whiskey",
+    "fair_price": 88.5,
+    "total_score": 2633,
+    "wishlist_count": 384,
+    "bar_count": 1401,
+    "ranking": 148
+  },
+  {
+    "id": 18070,
+    "abv": 49.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 222.55,
+    "total_score": 2623,
+    "wishlist_count": 438,
+    "bar_count": 1296,
+    "ranking": 149
+  },
+  {
+    "id": 18184,
+    "abv": 50,
+    "spirit_type": "Whiskey",
+    "fair_price": 47.5,
+    "total_score": 2598,
+    "wishlist_count": 104,
+    "bar_count": 1844,
+    "ranking": 150
+  },
+  {
+    "id": 17898,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 71.65,
+    "total_score": 2587,
+    "wishlist_count": 229,
+    "bar_count": 1644,
+    "ranking": 151
+  },
+  {
+    "id": 2291,
+    "abv": 43,
+    "spirit_type": "Bourbon",
+    "fair_price": 61.02,
+    "total_score": 2584,
+    "wishlist_count": 229,
+    "bar_count": 1707,
+    "ranking": 152
+  },
+  {
+    "id": 21106,
+    "abv": 62.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 197.99,
+    "total_score": 2532,
+    "wishlist_count": 499,
+    "bar_count": 1426,
+    "ranking": 153
+  },
+  {
+    "id": 2831,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 62.23,
+    "total_score": 2512,
+    "wishlist_count": 474,
+    "bar_count": 1407,
+    "ranking": 154
+  },
+  {
+    "id": 633,
+    "abv": 55.9,
+    "spirit_type": "Rye",
+    "fair_price": 204.81,
+    "total_score": 2490,
+    "wishlist_count": 608,
+    "bar_count": 1111,
+    "ranking": 155
+  },
+  {
+    "id": 2549,
+    "abv": 35,
+    "spirit_type": "Canadian Whisky",
+    "fair_price": 45.5,
+    "total_score": 2477,
+    "wishlist_count": 115,
+    "bar_count": 1846,
+    "ranking": 156
+  },
+  {
+    "id": 3997,
+    "abv": 45,
+    "spirit_type": "Whiskey",
+    "fair_price": 57.26,
+    "total_score": 2471,
+    "wishlist_count": 263,
+    "bar_count": 1620,
+    "ranking": 157
+  },
+  {
+    "id": 18508,
+    "abv": 54,
+    "spirit_type": "Bourbon",
+    "fair_price": 339.41,
+    "total_score": 2463,
+    "wishlist_count": 324,
+    "bar_count": 1141,
+    "ranking": 158
+  },
+  {
+    "id": 41273,
+    "abv": 63.8,
+    "spirit_type": "Bourbon",
+    "fair_price": 172.98,
+    "total_score": 2462,
+    "wishlist_count": 624,
+    "bar_count": 1192,
+    "ranking": 159
+  },
+  {
+    "id": 17450,
+    "abv": 47.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 36.69,
+    "total_score": 2460,
+    "wishlist_count": 232,
+    "bar_count": 1704,
+    "ranking": 160
+  },
+  {
+    "id": 21242,
+    "abv": 67.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 622.6,
+    "total_score": 2356,
+    "wishlist_count": 718,
+    "bar_count": 939,
+    "ranking": 161
+  },
+  {
+    "id": 893,
+    "abv": 43,
+    "spirit_type": "Bourbon",
+    "fair_price": 34.71,
+    "total_score": 2343,
+    "wishlist_count": 346,
+    "bar_count": 1108,
+    "ranking": 162
+  },
+  {
+    "id": 16682,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 294.86,
+    "total_score": 2317,
+    "wishlist_count": 1032,
+    "bar_count": 793,
+    "ranking": 164
+  },
+  {
+    "id": 17397,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 191.83,
+    "total_score": 2302,
+    "wishlist_count": 1467,
+    "bar_count": 233,
+    "ranking": 165
+  },
+  {
+    "id": 17632,
+    "abv": 60.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 127.1,
+    "total_score": 2292,
+    "wishlist_count": 214,
+    "bar_count": 1476,
+    "ranking": 166
+  },
+  {
+    "id": 17435,
+    "abv": 60.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 114.59,
+    "total_score": 2265,
+    "wishlist_count": 720,
+    "bar_count": 862,
+    "ranking": 167
+  },
+  {
+    "id": 435,
+    "abv": 40,
+    "spirit_type": "Canadian Whisky",
+    "fair_price": 43.8,
+    "total_score": 2234,
+    "wishlist_count": 162,
+    "bar_count": 1277,
+    "ranking": 168
+  },
+  {
+    "id": 17247,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 27.3,
+    "total_score": 2231,
+    "wishlist_count": 226,
+    "bar_count": 1539,
+    "ranking": 169
+  },
+  {
+    "id": 15984,
+    "abv": 63.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 270.36,
+    "total_score": 2230,
+    "wishlist_count": 1020,
+    "bar_count": 306,
+    "ranking": 170
+  },
+  {
+    "id": 670,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 44.66,
+    "total_score": 2219,
+    "wishlist_count": 433,
+    "bar_count": 1540,
+    "ranking": 171
+  },
+  {
+    "id": 1579,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 96.37,
+    "total_score": 2206,
+    "wishlist_count": 323,
+    "bar_count": 1253,
+    "ranking": 172
+  },
+  {
+    "id": 15989,
+    "abv": 55.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 134.68,
+    "total_score": 2186,
+    "wishlist_count": 314,
+    "bar_count": 1241,
+    "ranking": 173
+  },
+  {
+    "id": 17068,
+    "abv": 58,
+    "spirit_type": "Bourbon",
+    "fair_price": 73.69,
+    "total_score": 2173,
+    "wishlist_count": 269,
+    "bar_count": 1425,
+    "ranking": 174
+  },
+  {
+    "id": 5131,
+    "abv": 64,
+    "spirit_type": "Whiskey",
+    "fair_price": 75.34,
+    "total_score": 2163,
+    "wishlist_count": 159,
+    "bar_count": 1377,
+    "ranking": 175
+  },
+  {
+    "id": 19626,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 69.08,
+    "total_score": 2125,
+    "wishlist_count": 247,
+    "bar_count": 1410,
+    "ranking": 176
+  },
+  {
+    "id": 1419,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 60.52,
+    "total_score": 2118,
+    "wishlist_count": 154,
+    "bar_count": 1450,
+    "ranking": 177
+  },
+  {
+    "id": 16161,
+    "abv": 49.3,
+    "spirit_type": "Whiskey",
+    "fair_price": 251,
+    "total_score": 2085,
+    "wishlist_count": 406,
+    "bar_count": 897,
+    "ranking": 178
+  },
+  {
+    "id": 17210,
+    "abv": 56,
+    "spirit_type": "Bourbon",
+    "fair_price": 89.16,
+    "total_score": 2082,
+    "wishlist_count": 200,
+    "bar_count": 1435,
+    "ranking": 179
+  },
+  {
+    "id": 18235,
+    "abv": 53,
+    "spirit_type": "Bourbon",
+    "fair_price": 167.89,
+    "total_score": 2072,
+    "wishlist_count": 226,
+    "bar_count": 1234,
+    "ranking": 180
+  },
+  {
+    "id": 19720,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 45.61,
+    "total_score": 2054,
+    "wishlist_count": 204,
+    "bar_count": 1344,
+    "ranking": 181
+  },
+  {
+    "id": 17213,
+    "abv": 55.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 140.59,
+    "total_score": 2048,
+    "wishlist_count": 248,
+    "bar_count": 1243,
+    "ranking": 182
+  },
+  {
+    "id": 15965,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 56.43,
+    "total_score": 2045,
+    "wishlist_count": 198,
+    "bar_count": 1336,
+    "ranking": 183
+  },
+  {
+    "id": 4588,
+    "abv": 50.05,
+    "spirit_type": "Bourbon",
+    "fair_price": 71.85,
+    "total_score": 2031,
+    "wishlist_count": 170,
+    "bar_count": 1382,
+    "ranking": 184
+  },
+  {
+    "id": 1736,
+    "abv": 59.7,
+    "spirit_type": "Bourbon",
+    "fair_price": 67.32,
+    "total_score": 2030,
+    "wishlist_count": 223,
+    "bar_count": 1545,
+    "ranking": 185
+  },
+  {
+    "id": 2159,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 37.51,
+    "total_score": 2017,
+    "wishlist_count": 221,
+    "bar_count": 1309,
+    "ranking": 186
+  },
+  {
+    "id": 18396,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 75.46,
+    "total_score": 2014,
+    "wishlist_count": 247,
+    "bar_count": 1265,
+    "ranking": 187
+  },
+  {
+    "id": 17138,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 241.09,
+    "total_score": 2004,
+    "wishlist_count": 406,
+    "bar_count": 857,
+    "ranking": 188
+  },
+  {
+    "id": 18712,
+    "abv": 62.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 107.5,
+    "total_score": 1994,
+    "wishlist_count": 131,
+    "bar_count": 1374,
+    "ranking": 189
+  },
+  {
+    "id": 184,
+    "abv": 54,
+    "spirit_type": "Bourbon",
+    "fair_price": 92.34,
+    "total_score": 1988,
+    "wishlist_count": 219,
+    "bar_count": 1301,
+    "ranking": 190
+  },
+  {
+    "id": 859,
+    "abv": 43,
+    "spirit_type": "Scotch",
+    "fair_price": 51.34,
+    "total_score": 1986,
+    "wishlist_count": 226,
+    "bar_count": 1256,
+    "ranking": 191
+  },
+  {
+    "id": 286,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 85.93,
+    "total_score": 1984,
+    "wishlist_count": 276,
+    "bar_count": 1142,
+    "ranking": 192
+  },
+  {
+    "id": 21466,
+    "abv": 52.7,
+    "spirit_type": "Bourbon",
+    "fair_price": 80.06,
+    "total_score": 1979,
+    "wishlist_count": 257,
+    "bar_count": 1285,
+    "ranking": 193
+  },
+  {
+    "id": 19559,
+    "abv": 58.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 103.14,
+    "total_score": 1977,
+    "wishlist_count": 305,
+    "bar_count": 1248,
+    "ranking": 194
+  },
+  {
+    "id": 17089,
+    "abv": 64,
+    "spirit_type": "Bourbon",
+    "fair_price": 187.36,
+    "total_score": 1973,
+    "wishlist_count": 779,
+    "bar_count": 591,
+    "ranking": 195
+  },
+  {
+    "id": 3123,
+    "abv": 40,
+    "spirit_type": "Irish Whiskey",
+    "fair_price": 33.53,
+    "total_score": 1970,
+    "wishlist_count": 190,
+    "bar_count": 1202,
+    "ranking": 196
+  },
+  {
+    "id": 3205,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 111.06,
+    "total_score": 1965,
+    "wishlist_count": 210,
+    "bar_count": 1207,
+    "ranking": 197
+  },
+  {
+    "id": 3265,
+    "abv": 35,
+    "spirit_type": "Canadian Whisky",
+    "fair_price": 51.64,
+    "total_score": 1943,
+    "wishlist_count": 119,
+    "bar_count": 1325,
+    "ranking": 198
+  },
+  {
+    "id": 3152,
+    "abv": 50,
+    "spirit_type": "Whiskey",
+    "fair_price": 66.26,
+    "total_score": 1939,
+    "wishlist_count": 209,
+    "bar_count": 1142,
+    "ranking": 199
+  },
+  {
+    "id": 18233,
+    "abv": 60.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 113.91,
+    "total_score": 1938,
+    "wishlist_count": 127,
+    "bar_count": 1375,
+    "ranking": 200
+  },
+  {
+    "id": 2331,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 63.59,
+    "total_score": 1919,
+    "wishlist_count": 126,
+    "bar_count": 1269,
+    "ranking": 201
+  },
+  {
+    "id": 17293,
+    "abv": 62,
+    "spirit_type": "Bourbon",
+    "fair_price": 164.51,
+    "total_score": 1914,
+    "wishlist_count": 239,
+    "bar_count": 1060,
+    "ranking": 202
+  },
+  {
+    "id": 2086,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 49.1,
+    "total_score": 1904,
+    "wishlist_count": 116,
+    "bar_count": 1325,
+    "ranking": 203
+  },
+  {
+    "id": 4575,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 336.92,
+    "total_score": 1896,
+    "wishlist_count": 1395,
+    "bar_count": 37,
+    "ranking": 204
+  },
+  {
+    "id": 17153,
+    "abv": 54.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 107.16,
+    "total_score": 1895,
+    "wishlist_count": 348,
+    "bar_count": 1020,
+    "ranking": 205
+  },
+  {
+    "id": 19790,
+    "abv": 49,
+    "spirit_type": "Bourbon",
+    "fair_price": 108.79,
+    "total_score": 1894,
+    "wishlist_count": 294,
+    "bar_count": 1432,
+    "ranking": 206
+  },
+  {
+    "id": 2147,
+    "abv": 46,
+    "spirit_type": "Whiskey",
+    "fair_price": 82.92,
+    "total_score": 1885,
+    "wishlist_count": 148,
+    "bar_count": 1277,
+    "ranking": 207
+  },
+  {
+    "id": 20831,
+    "abv": 61,
+    "spirit_type": "Bourbon",
+    "fair_price": 156.5,
+    "total_score": 1877,
+    "wishlist_count": 56,
+    "bar_count": 1337,
+    "ranking": 208
+  },
+  {
+    "id": 17688,
+    "abv": 64.05,
+    "spirit_type": "Rye",
+    "fair_price": 124.24,
+    "total_score": 1877,
+    "wishlist_count": 226,
+    "bar_count": 1149,
+    "ranking": 208
+  },
+  {
+    "id": 17894,
+    "abv": 49,
+    "spirit_type": "Bourbon",
+    "fair_price": 68.72,
+    "total_score": 1874,
+    "wishlist_count": 185,
+    "bar_count": 1202,
+    "ranking": 210
+  },
+  {
+    "id": 15967,
+    "abv": 43,
+    "spirit_type": "Bourbon",
+    "fair_price": 77.69,
+    "total_score": 1871,
+    "wishlist_count": 309,
+    "bar_count": 1076,
+    "ranking": 211
+  },
+  {
+    "id": 17446,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 90.03,
+    "total_score": 1859,
+    "wishlist_count": 121,
+    "bar_count": 1336,
+    "ranking": 212
+  },
+  {
+    "id": 841,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 99.58,
+    "total_score": 1858,
+    "wishlist_count": 189,
+    "bar_count": 1236,
+    "ranking": 213
+  },
+  {
+    "id": 17211,
+    "abv": 61,
+    "spirit_type": "Bourbon",
+    "fair_price": 61.86,
+    "total_score": 1852,
+    "wishlist_count": 215,
+    "bar_count": 1317,
+    "ranking": 214
+  },
+  {
+    "id": 21010,
+    "abv": 63.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 143.81,
+    "total_score": 1845,
+    "wishlist_count": 54,
+    "bar_count": 1341,
+    "ranking": 215
+  },
+  {
+    "id": 20005,
+    "abv": 62.75,
+    "spirit_type": "Bourbon",
+    "fair_price": 105.83,
+    "total_score": 1840,
+    "wishlist_count": 45,
+    "bar_count": 1296,
+    "ranking": 216
+  },
+  {
+    "id": 2581,
+    "abv": 48.3,
+    "spirit_type": "Rye",
+    "fair_price": 67.17,
+    "total_score": 1840,
+    "wishlist_count": 129,
+    "bar_count": 1261,
+    "ranking": 216
+  },
+  {
+    "id": 4783,
+    "abv": 45.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 91.49,
+    "total_score": 1839,
+    "wishlist_count": 174,
+    "bar_count": 1135,
+    "ranking": 218
+  },
+  {
+    "id": 17054,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 109.08,
+    "total_score": 1828,
+    "wishlist_count": 308,
+    "bar_count": 1060,
+    "ranking": 219
+  },
+  {
+    "id": 4813,
+    "abv": 55,
+    "spirit_type": "Bourbon",
+    "fair_price": 79.52,
+    "total_score": 1817,
+    "wishlist_count": 308,
+    "bar_count": 1041,
+    "ranking": 220
+  },
+  {
+    "id": 19151,
+    "abv": 65.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 345.56,
+    "total_score": 1815,
+    "wishlist_count": 87,
+    "bar_count": 1144,
+    "ranking": 221
+  },
+  {
+    "id": 19975,
+    "abv": 62,
+    "spirit_type": "Bourbon",
+    "fair_price": 115.23,
+    "total_score": 1808,
+    "wishlist_count": 50,
+    "bar_count": 1370,
+    "ranking": 222
+  },
+  {
+    "id": 17355,
+    "abv": 57.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 85.25,
+    "total_score": 1799,
+    "wishlist_count": 347,
+    "bar_count": 1018,
+    "ranking": 223
+  },
+  {
+    "id": 17802,
+    "abv": 64.35,
+    "spirit_type": "Bourbon",
+    "fair_price": 228.07,
+    "total_score": 1795,
+    "wishlist_count": 166,
+    "bar_count": 1049,
+    "ranking": 224
+  },
+  {
+    "id": 48400,
+    "abv": 63.9,
+    "spirit_type": "Bourbon",
+    "fair_price": 163.28,
+    "total_score": 1781,
+    "wishlist_count": 425,
+    "bar_count": 842,
+    "ranking": 225
+  },
+  {
+    "id": 3286,
+    "abv": 46,
+    "spirit_type": "Rye",
+    "fair_price": 44.45,
+    "total_score": 1780,
+    "wishlist_count": 137,
+    "bar_count": 1252,
+    "ranking": 226
+  },
+  {
+    "id": 18354,
+    "abv": 62,
+    "spirit_type": "Bourbon",
+    "fair_price": 175.74,
+    "total_score": 1779,
+    "wishlist_count": 123,
+    "bar_count": 1186,
+    "ranking": 227
+  },
+  {
+    "id": 17630,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 157.56,
+    "total_score": 1776,
+    "wishlist_count": 135,
+    "bar_count": 1045,
+    "ranking": 228
+  },
+  {
+    "id": 1948,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 135.44,
+    "total_score": 1775,
+    "wishlist_count": 484,
+    "bar_count": 1103,
+    "ranking": 229
+  },
+  {
+    "id": 3838,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 139.15,
+    "total_score": 1758,
+    "wishlist_count": 206,
+    "bar_count": 1025,
+    "ranking": 230
+  },
+  {
+    "id": 19879,
+    "abv": 66,
+    "spirit_type": "Bourbon",
+    "fair_price": 255.95,
+    "total_score": 1751,
+    "wishlist_count": 114,
+    "bar_count": 1096,
+    "ranking": 231
+  },
+  {
+    "id": 19819,
+    "abv": 62.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 79.14,
+    "total_score": 1740,
+    "wishlist_count": 62,
+    "bar_count": 1232,
+    "ranking": 232
+  },
+  {
+    "id": 4033,
+    "abv": 55,
+    "spirit_type": "Rye",
+    "fair_price": 70.52,
+    "total_score": 1738,
+    "wishlist_count": 253,
+    "bar_count": 1051,
+    "ranking": 233
+  },
+  {
+    "id": 3365,
+    "abv": 45.1,
+    "spirit_type": "Bourbon",
+    "fair_price": 80.75,
+    "total_score": 1737,
+    "wishlist_count": 150,
+    "bar_count": 1203,
+    "ranking": 234
+  },
+  {
+    "id": 13955,
+    "abv": 47.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 100.85,
+    "total_score": 1722,
+    "wishlist_count": 133,
+    "bar_count": 1115,
+    "ranking": 235
+  },
+  {
+    "id": 19502,
+    "abv": 60.05,
+    "spirit_type": "Bourbon",
+    "fair_price": 89.03,
+    "total_score": 1719,
+    "wishlist_count": 331,
+    "bar_count": 1055,
+    "ranking": 236
+  },
+  {
+    "id": 2019,
+    "abv": 45.6,
+    "spirit_type": "Bourbon",
+    "fair_price": 67.06,
+    "total_score": 1714,
+    "wishlist_count": 192,
+    "bar_count": 1090,
+    "ranking": 237
+  },
+  {
+    "id": 592,
+    "abv": 43,
+    "spirit_type": "Single Malt Scotch Whisky",
+    "fair_price": 119.13,
+    "total_score": 1713,
+    "wishlist_count": 189,
+    "bar_count": 1023,
+    "ranking": 238
+  },
+  {
+    "id": 3454,
+    "abv": 47,
+    "spirit_type": "Rye",
+    "fair_price": 40.84,
+    "total_score": 1710,
+    "wishlist_count": 92,
+    "bar_count": 1191,
+    "ranking": 239
+  },
+  {
+    "id": 2034,
+    "abv": 50,
+    "spirit_type": "Whiskey",
+    "fair_price": 25.37,
+    "total_score": 1707,
+    "wishlist_count": 110,
+    "bar_count": 1145,
+    "ranking": 240
+  },
+  {
+    "id": 17221,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 105.9,
+    "total_score": 1706,
+    "wishlist_count": 270,
+    "bar_count": 1043,
+    "ranking": 241
+  },
+  {
+    "id": 18778,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 153.09,
+    "total_score": 1704,
+    "wishlist_count": 261,
+    "bar_count": 945,
+    "ranking": 242
+  },
+  {
+    "id": 4427,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 79.18,
+    "total_score": 1675,
+    "wishlist_count": 236,
+    "bar_count": 1070,
+    "ranking": 243
+  },
+  {
+    "id": 18768,
+    "abv": 54.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 109.33,
+    "total_score": 1667,
+    "wishlist_count": 76,
+    "bar_count": 1179,
+    "ranking": 244
+  },
+  {
+    "id": 17776,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 47.06,
+    "total_score": 1666,
+    "wishlist_count": 208,
+    "bar_count": 1030,
+    "ranking": 245
+  },
+  {
+    "id": 19848,
+    "abv": 49,
+    "spirit_type": "Bourbon",
+    "fair_price": 273.22,
+    "total_score": 1663,
+    "wishlist_count": 139,
+    "bar_count": 1039,
+    "ranking": 246
+  },
+  {
+    "id": 3181,
+    "abv": 43,
+    "spirit_type": "Japanese Whisky",
+    "fair_price": 231.33,
+    "total_score": 1661,
+    "wishlist_count": 234,
+    "bar_count": 877,
+    "ranking": 247
+  },
+  {
+    "id": 3560,
+    "abv": 43,
+    "spirit_type": "Bourbon",
+    "fair_price": 123.8,
+    "total_score": 1659,
+    "wishlist_count": 188,
+    "bar_count": 929,
+    "ranking": 248
+  },
+  {
+    "id": 4581,
+    "abv": 40,
+    "spirit_type": "Rye",
+    "fair_price": 65.11,
+    "total_score": 1650,
+    "wishlist_count": 128,
+    "bar_count": 1151,
+    "ranking": 249
+  },
+  {
+    "id": 16674,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 346.14,
+    "total_score": 1642,
+    "wishlist_count": 1067,
+    "bar_count": 127,
+    "ranking": 250
+  },
+  {
+    "id": 20574,
+    "abv": 59,
+    "spirit_type": "Whiskey",
+    "fair_price": 227.42,
+    "total_score": 1640,
+    "wishlist_count": 82,
+    "bar_count": 1085,
+    "ranking": 251
+  },
+  {
+    "id": 19465,
+    "abv": 63,
+    "spirit_type": "Bourbon",
+    "fair_price": 96.48,
+    "total_score": 1629,
+    "wishlist_count": 122,
+    "bar_count": 1091,
+    "ranking": 252
+  },
+  {
+    "id": 19529,
+    "abv": 65,
+    "spirit_type": "Bourbon",
+    "fair_price": 270.44,
+    "total_score": 1618,
+    "wishlist_count": 65,
+    "bar_count": 1045,
+    "ranking": 253
+  },
+  {
+    "id": 18185,
+    "abv": 50,
+    "spirit_type": "Whiskey",
+    "fair_price": 46.87,
+    "total_score": 1617,
+    "wishlist_count": 81,
+    "bar_count": 1133,
+    "ranking": 254
+  },
+  {
+    "id": 17181,
+    "abv": 63.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 166.78,
+    "total_score": 1615,
+    "wishlist_count": 141,
+    "bar_count": 944,
+    "ranking": 255
+  },
+  {
+    "id": 18517,
+    "abv": 58.7,
+    "spirit_type": "Bourbon",
+    "fair_price": 249.86,
+    "total_score": 1613,
+    "wishlist_count": 100,
+    "bar_count": 1040,
+    "ranking": 256
+  },
+  {
+    "id": 21024,
+    "abv": 63.9,
+    "spirit_type": "Bourbon",
+    "fair_price": 168.23,
+    "total_score": 1604,
+    "wishlist_count": 72,
+    "bar_count": 1125,
+    "ranking": 257
+  },
+  {
+    "id": 3793,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 57.5,
+    "total_score": 1597,
+    "wishlist_count": 157,
+    "bar_count": 1082,
+    "ranking": 258
+  },
+  {
+    "id": 17246,
+    "abv": 43,
+    "spirit_type": "Bourbon",
+    "fair_price": 24.94,
+    "total_score": 1571,
+    "wishlist_count": 130,
+    "bar_count": 1103,
+    "ranking": 259
+  },
+  {
+    "id": 18355,
+    "abv": 57.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 65.5,
+    "total_score": 1563,
+    "wishlist_count": 90,
+    "bar_count": 1113,
+    "ranking": 260
+  },
+  {
+    "id": 16693,
+    "abv": 43,
+    "spirit_type": "Blended Whisky",
+    "fair_price": 112.22,
+    "total_score": 1558,
+    "wishlist_count": 183,
+    "bar_count": 969,
+    "ranking": 261
+  },
+  {
+    "id": 18767,
+    "abv": 54.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 99.03,
+    "total_score": 1556,
+    "wishlist_count": 66,
+    "bar_count": 1105,
+    "ranking": 262
+  },
+  {
+    "id": 2428,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 82.62,
+    "total_score": 1537,
+    "wishlist_count": 134,
+    "bar_count": 992,
+    "ranking": 263
+  },
+  {
+    "id": 14239,
+    "abv": 60,
+    "spirit_type": "Bourbon",
+    "fair_price": 75.43,
+    "total_score": 1528,
+    "wishlist_count": 76,
+    "bar_count": 1070,
+    "ranking": 264
+  },
+  {
+    "id": 17151,
+    "abv": 60,
+    "spirit_type": "Bourbon",
+    "fair_price": 73.03,
+    "total_score": 1525,
+    "wishlist_count": 107,
+    "bar_count": 1062,
+    "ranking": 265
+  },
+  {
+    "id": 19540,
+    "abv": 48,
+    "spirit_type": "Bourbon",
+    "fair_price": 63.05,
+    "total_score": 1518,
+    "wishlist_count": 165,
+    "bar_count": 1057,
+    "ranking": 266
+  },
+  {
+    "id": 13347,
+    "abv": 48.3,
+    "spirit_type": "Rye",
+    "fair_price": 73.96,
+    "total_score": 1518,
+    "wishlist_count": 208,
+    "bar_count": 994,
+    "ranking": 266
+  },
+  {
+    "id": 16367,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 52.41,
+    "total_score": 1514,
+    "wishlist_count": 81,
+    "bar_count": 1107,
+    "ranking": 268
+  },
+  {
+    "id": 17309,
+    "abv": 60,
+    "spirit_type": "Bourbon",
+    "fair_price": 109.18,
+    "total_score": 1504,
+    "wishlist_count": 115,
+    "bar_count": 1003,
+    "ranking": 269
+  },
+  {
+    "id": 16893,
+    "abv": 47.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 87.89,
+    "total_score": 1497,
+    "wishlist_count": 290,
+    "bar_count": 749,
+    "ranking": 270
+  },
+  {
+    "id": 19779,
+    "abv": 43.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 60.7,
+    "total_score": 1497,
+    "wishlist_count": 103,
+    "bar_count": 1064,
+    "ranking": 270
+  },
+  {
+    "id": 17164,
+    "abv": 49.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 132.77,
+    "total_score": 1489,
+    "wishlist_count": 185,
+    "bar_count": 870,
+    "ranking": 272
+  },
+  {
+    "id": 50056,
+    "abv": 68.05,
+    "spirit_type": "Bourbon",
+    "fair_price": 486.09,
+    "total_score": 1475,
+    "wishlist_count": 596,
+    "bar_count": 434,
+    "ranking": 273
+  },
+  {
+    "id": 3000,
+    "abv": 45,
+    "spirit_type": "Whiskey",
+    "fair_price": 56.18,
+    "total_score": 1465,
+    "wishlist_count": 158,
+    "bar_count": 915,
+    "ranking": 274
+  },
+  {
+    "id": 34570,
+    "abv": 58.65,
+    "spirit_type": "Bourbon",
+    "fair_price": 67.46,
+    "total_score": 1459,
+    "wishlist_count": 272,
+    "bar_count": 921,
+    "ranking": 275
+  },
+  {
+    "id": 2329,
+    "abv": 62.5,
+    "spirit_type": "Whiskey",
+    "fair_price": 20.66,
+    "total_score": 1448,
+    "wishlist_count": 79,
+    "bar_count": 1080,
+    "ranking": 276
+  },
+  {
+    "id": 3086,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 209.73,
+    "total_score": 1443,
+    "wishlist_count": 391,
+    "bar_count": 666,
+    "ranking": 277
+  },
+  {
+    "id": 1580,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 210.62,
+    "total_score": 1442,
+    "wishlist_count": 1054,
+    "bar_count": 56,
+    "ranking": 278
+  },
+  {
+    "id": 297,
+    "abv": 44,
+    "spirit_type": "Bourbon",
+    "fair_price": 55.34,
+    "total_score": 1441,
+    "wishlist_count": 132,
+    "bar_count": 1048,
+    "ranking": 279
+  },
+  {
+    "id": 3867,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 18.72,
+    "total_score": 1439,
+    "wishlist_count": 106,
+    "bar_count": 961,
+    "ranking": 280
+  },
+  {
+    "id": 1547,
+    "abv": 40,
+    "spirit_type": "Scotch",
+    "fair_price": 271.87,
+    "total_score": 1429,
+    "wishlist_count": 136,
+    "bar_count": 892,
+    "ranking": 281
+  },
+  {
+    "id": 18104,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 177.5,
+    "total_score": 1419,
+    "wishlist_count": 170,
+    "bar_count": 781,
+    "ranking": 282
+  },
+  {
+    "id": 17177,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 84.41,
+    "total_score": 1409,
+    "wishlist_count": 144,
+    "bar_count": 907,
+    "ranking": 283
+  },
+  {
+    "id": 2256,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 21.5,
+    "total_score": 1409,
+    "wishlist_count": 57,
+    "bar_count": 1033,
+    "ranking": 283
+  },
+  {
+    "id": 521,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 45.53,
+    "total_score": 1390,
+    "wishlist_count": 127,
+    "bar_count": 890,
+    "ranking": 285
+  },
+  {
+    "id": 20607,
+    "abv": 49,
+    "spirit_type": "Bourbon",
+    "fair_price": 125.18,
+    "total_score": 1385,
+    "wishlist_count": 355,
+    "bar_count": 654,
+    "ranking": 286
+  },
+  {
+    "id": 19499,
+    "abv": 63.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 110.34,
+    "total_score": 1384,
+    "wishlist_count": 38,
+    "bar_count": 970,
+    "ranking": 287
+  },
+  {
+    "id": 4476,
+    "abv": 60,
+    "spirit_type": "Rye",
+    "fair_price": 93.42,
+    "total_score": 1384,
+    "wishlist_count": 442,
+    "bar_count": 508,
+    "ranking": 287
+  },
+  {
+    "id": 12902,
+    "abv": 48.1,
+    "spirit_type": "Bourbon",
+    "fair_price": 138.54,
+    "total_score": 1379,
+    "wishlist_count": 304,
+    "bar_count": 664,
+    "ranking": 289
+  },
+  {
+    "id": 18939,
+    "abv": 63.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 122.33,
+    "total_score": 1379,
+    "wishlist_count": 57,
+    "bar_count": 968,
+    "ranking": 289
+  },
+  {
+    "id": 19851,
+    "abv": 55,
+    "spirit_type": "Bourbon",
+    "fair_price": 67.83,
+    "total_score": 1359,
+    "wishlist_count": 70,
+    "bar_count": 925,
+    "ranking": 291
+  },
+  {
+    "id": 18084,
+    "abv": 47.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 212.62,
+    "total_score": 1354,
+    "wishlist_count": 97,
+    "bar_count": 903,
+    "ranking": 292
+  },
+  {
+    "id": 18718,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 77.54,
+    "total_score": 1352,
+    "wishlist_count": 82,
+    "bar_count": 952,
+    "ranking": 293
+  },
+  {
+    "id": 281,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 64.63,
+    "total_score": 1344,
+    "wishlist_count": 275,
+    "bar_count": 1035,
+    "ranking": 294
+  },
+  {
+    "id": 2311,
+    "abv": 45,
+    "spirit_type": "Rye",
+    "fair_price": 44.2,
+    "total_score": 1343,
+    "wishlist_count": 136,
+    "bar_count": 882,
+    "ranking": 295
+  },
+  {
+    "id": 33325,
+    "abv": 65.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 104.97,
+    "total_score": 1325,
+    "wishlist_count": 115,
+    "bar_count": 947,
+    "ranking": 296
+  },
+  {
+    "id": 3617,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 59.33,
+    "total_score": 1315,
+    "wishlist_count": 179,
+    "bar_count": 798,
+    "ranking": 297
+  },
+  {
+    "id": 12112,
+    "abv": 40,
+    "spirit_type": "Tequila",
+    "fair_price": 89.15,
+    "total_score": 1315,
+    "wishlist_count": 155,
+    "bar_count": 816,
+    "ranking": 297
+  },
+  {
+    "id": 19816,
+    "abv": 56,
+    "spirit_type": "Bourbon",
+    "fair_price": 354.85,
+    "total_score": 1306,
+    "wishlist_count": 808,
+    "bar_count": 218,
+    "ranking": 299
+  },
+  {
+    "id": 19546,
+    "abv": 50.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 217.7,
+    "total_score": 1295,
+    "wishlist_count": 440,
+    "bar_count": 585,
+    "ranking": 300
+  },
+  {
+    "id": 3281,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 12.66,
+    "total_score": 1279,
+    "wishlist_count": 81,
+    "bar_count": 865,
+    "ranking": 301
+  },
+  {
+    "id": 17299,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 63.6,
+    "total_score": 1271,
+    "wishlist_count": 201,
+    "bar_count": 785,
+    "ranking": 302
+  },
+  {
+    "id": 44955,
+    "abv": 53,
+    "spirit_type": "Bourbon",
+    "fair_price": 66.26,
+    "total_score": 1269,
+    "wishlist_count": 255,
+    "bar_count": 789,
+    "ranking": 303
+  },
+  {
+    "id": 21291,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 208.75,
+    "total_score": 1263,
+    "wishlist_count": 516,
+    "bar_count": 423,
+    "ranking": 304
+  },
+  {
+    "id": 16486,
+    "abv": 55,
+    "spirit_type": "Bourbon",
+    "fair_price": 67.62,
+    "total_score": 1260,
+    "wishlist_count": 118,
+    "bar_count": 877,
+    "ranking": 305
+  },
+  {
+    "id": 15987,
+    "abv": 66,
+    "spirit_type": "Rye",
+    "fair_price": 83.16,
+    "total_score": 1252,
+    "wishlist_count": 196,
+    "bar_count": 599,
+    "ranking": 306
+  },
+  {
+    "id": 1584,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 80.01,
+    "total_score": 1251,
+    "wishlist_count": 98,
+    "bar_count": 826,
+    "ranking": 307
+  },
+  {
+    "id": 17040,
+    "abv": 57.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 97.49,
+    "total_score": 1241,
+    "wishlist_count": 152,
+    "bar_count": 756,
+    "ranking": 308
+  },
+  {
+    "id": 17328,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 558.36,
+    "total_score": 1241,
+    "wishlist_count": 646,
+    "bar_count": 29,
+    "ranking": 308
+  },
+  {
+    "id": 28079,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 104.95,
+    "total_score": 1240,
+    "wishlist_count": 274,
+    "bar_count": 671,
+    "ranking": 310
+  },
+  {
+    "id": 17925,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 65.03,
+    "total_score": 1239,
+    "wishlist_count": 129,
+    "bar_count": 808,
+    "ranking": 311
+  },
+  {
+    "id": 13667,
+    "abv": 62.6,
+    "spirit_type": "Whiskey",
+    "fair_price": 89.05,
+    "total_score": 1234,
+    "wishlist_count": 132,
+    "bar_count": 753,
+    "ranking": 312
+  },
+  {
+    "id": 17924,
+    "abv": 59,
+    "spirit_type": "Bourbon",
+    "fair_price": 646.78,
+    "total_score": 1230,
+    "wishlist_count": 510,
+    "bar_count": 219,
+    "ranking": 313
+  },
+  {
+    "id": 27454,
+    "abv": 60.6,
+    "spirit_type": "Bourbon",
+    "fair_price": 190.52,
+    "total_score": 1227,
+    "wishlist_count": 126,
+    "bar_count": 947,
+    "ranking": 314
+  },
+  {
+    "id": 19807,
+    "abv": 65,
+    "spirit_type": "Bourbon",
+    "fair_price": 170.8,
+    "total_score": 1225,
+    "wishlist_count": 85,
+    "bar_count": 763,
+    "ranking": 315
+  },
+  {
+    "id": 17542,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 131.05,
+    "total_score": 1222,
+    "wishlist_count": 159,
+    "bar_count": 713,
+    "ranking": 316
+  },
+  {
+    "id": 16602,
+    "abv": 51.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 140,
+    "total_score": 1218,
+    "wishlist_count": 142,
+    "bar_count": 604,
+    "ranking": 317
+  },
+  {
+    "id": 17319,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 23.24,
+    "total_score": 1213,
+    "wishlist_count": 131,
+    "bar_count": 844,
+    "ranking": 318
+  },
+  {
+    "id": 147,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 28.02,
+    "total_score": 1213,
+    "wishlist_count": 121,
+    "bar_count": 782,
+    "ranking": 318
+  },
+  {
+    "id": 2316,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 67.83,
+    "total_score": 1207,
+    "wishlist_count": 180,
+    "bar_count": 730,
+    "ranking": 320
+  },
+  {
+    "id": 18075,
+    "abv": 62.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 54.3,
+    "total_score": 1200,
+    "wishlist_count": 152,
+    "bar_count": 731,
+    "ranking": 321
+  },
+  {
+    "id": 17921,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 350.74,
+    "total_score": 1197,
+    "wishlist_count": 518,
+    "bar_count": 282,
+    "ranking": 322
+  },
+  {
+    "id": 16680,
+    "abv": 50.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 156.12,
+    "total_score": 1191,
+    "wishlist_count": 167,
+    "bar_count": 638,
+    "ranking": 323
+  },
+  {
+    "id": 542,
+    "abv": 40,
+    "spirit_type": "Irish Whiskey",
+    "fair_price": 75.21,
+    "total_score": 1183,
+    "wishlist_count": 154,
+    "bar_count": 755,
+    "ranking": 325
+  },
+  {
+    "id": 16791,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 475.05,
+    "total_score": 1180,
+    "wishlist_count": 528,
+    "bar_count": 99,
+    "ranking": 326
+  },
+  {
+    "id": 21257,
+    "abv": 65.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 240.29,
+    "total_score": 1172,
+    "wishlist_count": 151,
+    "bar_count": 702,
+    "ranking": 327
+  },
+  {
+    "id": 3040,
+    "abv": 43,
+    "spirit_type": "Japanese Whisky",
+    "fair_price": 53.67,
+    "total_score": 1169,
+    "wishlist_count": 145,
+    "bar_count": 949,
+    "ranking": 328
+  },
+  {
+    "id": 48189,
+    "abv": 62.55,
+    "spirit_type": "Bourbon",
+    "fair_price": 92.46,
+    "total_score": 1169,
+    "wishlist_count": 130,
+    "bar_count": 779,
+    "ranking": 328
+  },
+  {
+    "id": 4838,
+    "abv": 47,
+    "spirit_type": "Rye",
+    "fair_price": 63.18,
+    "total_score": 1168,
+    "wishlist_count": 111,
+    "bar_count": 782,
+    "ranking": 330
+  },
+  {
+    "id": 20014,
+    "abv": 62,
+    "spirit_type": "Bourbon",
+    "fair_price": 161.8,
+    "total_score": 1154,
+    "wishlist_count": 55,
+    "bar_count": 775,
+    "ranking": 331
+  },
+  {
+    "id": 2697,
+    "abv": 50.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 48.01,
+    "total_score": 1151,
+    "wishlist_count": 88,
+    "bar_count": 773,
+    "ranking": 332
+  },
+  {
+    "id": 4414,
+    "abv": 57.7,
+    "spirit_type": "Irish Whiskey",
+    "fair_price": 108.44,
+    "total_score": 1135,
+    "wishlist_count": 204,
+    "bar_count": 599,
+    "ranking": 333
+  },
+  {
+    "id": 17214,
+    "abv": 47.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 76.79,
+    "total_score": 1132,
+    "wishlist_count": 161,
+    "bar_count": 700,
+    "ranking": 334
+  },
+  {
+    "id": 1142,
+    "abv": 47,
+    "spirit_type": "Rye",
+    "fair_price": 60.59,
+    "total_score": 1131,
+    "wishlist_count": 276,
+    "bar_count": 516,
+    "ranking": 335
+  },
+  {
+    "id": 21036,
+    "abv": 59.05,
+    "spirit_type": "Bourbon",
+    "fair_price": 166.47,
+    "total_score": 1130,
+    "wishlist_count": 152,
+    "bar_count": 727,
+    "ranking": 336
+  },
+  {
+    "id": 4083,
+    "abv": 43,
+    "spirit_type": "Scotch",
+    "fair_price": 72.25,
+    "total_score": 1129,
+    "wishlist_count": 206,
+    "bar_count": 615,
+    "ranking": 337
+  },
+  {
+    "id": 25363,
+    "abv": 45.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 92.12,
+    "total_score": 1128,
+    "wishlist_count": 46,
+    "bar_count": 960,
+    "ranking": 338
+  },
+  {
+    "id": 3142,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 26.75,
+    "total_score": 1125,
+    "wishlist_count": 130,
+    "bar_count": 728,
+    "ranking": 339
+  },
+  {
+    "id": 18228,
+    "abv": 61.9,
+    "spirit_type": "Bourbon",
+    "fair_price": 70.21,
+    "total_score": 1120,
+    "wishlist_count": 54,
+    "bar_count": 786,
+    "ranking": 340
+  },
+  {
+    "id": 17223,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 95.02,
+    "total_score": 1119,
+    "wishlist_count": 352,
+    "bar_count": 469,
+    "ranking": 341
+  },
+  {
+    "id": 1388,
+    "abv": 40,
+    "spirit_type": "Whiskey",
+    "fair_price": 35.46,
+    "total_score": 1116,
+    "wishlist_count": 63,
+    "bar_count": 814,
+    "ranking": 342
+  },
+  {
+    "id": 634,
+    "abv": 51.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 116.01,
+    "total_score": 1115,
+    "wishlist_count": 97,
+    "bar_count": 695,
+    "ranking": 343
+  },
+  {
+    "id": 40819,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 70.06,
+    "total_score": 1115,
+    "wishlist_count": 149,
+    "bar_count": 747,
+    "ranking": 343
+  },
+  {
+    "id": 269,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 270.86,
+    "total_score": 1114,
+    "wishlist_count": 816,
+    "bar_count": 99,
+    "ranking": 345
+  },
+  {
+    "id": 34488,
+    "abv": 59.1,
+    "spirit_type": "Whiskey",
+    "fair_price": 220.57,
+    "total_score": 1108,
+    "wishlist_count": 125,
+    "bar_count": 767,
+    "ranking": 346
+  },
+  {
+    "id": 48300,
+    "abv": 64.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 94.76,
+    "total_score": 1107,
+    "wishlist_count": 116,
+    "bar_count": 805,
+    "ranking": 347
+  },
+  {
+    "id": 23515,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 62.71,
+    "total_score": 1105,
+    "wishlist_count": 139,
+    "bar_count": 768,
+    "ranking": 348
+  },
+  {
+    "id": 16679,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 44.67,
+    "total_score": 1099,
+    "wishlist_count": 231,
+    "bar_count": 518,
+    "ranking": 349
+  },
+  {
+    "id": 2685,
+    "abv": 45,
+    "spirit_type": "Whiskey",
+    "fair_price": 52.69,
+    "total_score": 1098,
+    "wishlist_count": 84,
+    "bar_count": 729,
+    "ranking": 350
+  },
+  {
+    "id": 13361,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 50.59,
+    "total_score": 1098,
+    "wishlist_count": 84,
+    "bar_count": 705,
+    "ranking": 350
+  },
+  {
+    "id": 5155,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 34.88,
+    "total_score": 1095,
+    "wishlist_count": 92,
+    "bar_count": 736,
+    "ranking": 352
+  },
+  {
+    "id": 5196,
+    "abv": 46,
+    "spirit_type": "Whiskey",
+    "fair_price": 86.76,
+    "total_score": 1095,
+    "wishlist_count": 218,
+    "bar_count": 574,
+    "ranking": 352
+  },
+  {
+    "id": 42342,
+    "abv": 53.5,
+    "spirit_type": null,
+    "fair_price": 107.43,
+    "total_score": 1105,
+    "wishlist_count": 163,
+    "bar_count": 906,
+    "ranking": 353
+  },
+  {
+    "id": 1807,
+    "abv": 45.2,
+    "spirit_type": "Rye",
+    "fair_price": 45.24,
+    "total_score": 1094,
+    "wishlist_count": 81,
+    "bar_count": 741,
+    "ranking": 354
+  },
+  {
+    "id": 18004,
+    "abv": 45,
+    "spirit_type": "Whiskey",
+    "fair_price": 207.06,
+    "total_score": 1094,
+    "wishlist_count": 92,
+    "bar_count": 616,
+    "ranking": 354
+  },
+  {
+    "id": 1066,
+    "abv": 40,
+    "spirit_type": "Whiskey",
+    "fair_price": 130.03,
+    "total_score": 1090,
+    "wishlist_count": 78,
+    "bar_count": 665,
+    "ranking": 356
+  },
+  {
+    "id": 3518,
+    "abv": 52,
+    "spirit_type": "Rye",
+    "fair_price": 78.84,
+    "total_score": 1090,
+    "wishlist_count": 132,
+    "bar_count": 707,
+    "ranking": 356
+  },
+  {
+    "id": 786,
+    "abv": 45,
+    "spirit_type": "Rye",
+    "fair_price": 39.08,
+    "total_score": 1080,
+    "wishlist_count": 88,
+    "bar_count": 753,
+    "ranking": 358
+  },
+  {
+    "id": 678,
+    "abv": 43,
+    "spirit_type": "Rye",
+    "fair_price": 152.67,
+    "total_score": 1077,
+    "wishlist_count": 131,
+    "bar_count": 661,
+    "ranking": 359
+  },
+  {
+    "id": 16796,
+    "abv": 40,
+    "spirit_type": "Canadian Whisky",
+    "fair_price": 176.59,
+    "total_score": 1077,
+    "wishlist_count": 84,
+    "bar_count": 612,
+    "ranking": 359
+  },
+  {
+    "id": 4510,
+    "abv": 41,
+    "spirit_type": "Bourbon",
+    "fair_price": 56.61,
+    "total_score": 1075,
+    "wishlist_count": 58,
+    "bar_count": 733,
+    "ranking": 361
+  },
+  {
+    "id": 46500,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 90.39,
+    "total_score": 1074,
+    "wishlist_count": 106,
+    "bar_count": 717,
+    "ranking": 362
+  },
+  {
+    "id": 16485,
+    "abv": 59,
+    "spirit_type": "Whiskey",
+    "fair_price": 237.28,
+    "total_score": 1073,
+    "wishlist_count": 245,
+    "bar_count": 423,
+    "ranking": 363
+  },
+  {
+    "id": 2287,
+    "abv": 51.4,
+    "spirit_type": "Whiskey",
+    "fair_price": 75.03,
+    "total_score": 1072,
+    "wishlist_count": 180,
+    "bar_count": 603,
+    "ranking": 364
+  },
+  {
+    "id": 11035,
+    "abv": 40,
+    "spirit_type": "Vodka",
+    "fair_price": 22.79,
+    "total_score": 1070,
+    "wishlist_count": 87,
+    "bar_count": 679,
+    "ranking": 365
+  },
+  {
+    "id": 19556,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 145.32,
+    "total_score": 1070,
+    "wishlist_count": 61,
+    "bar_count": 695,
+    "ranking": 365
+  },
+  {
+    "id": 1130,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 96.44,
+    "total_score": 1065,
+    "wishlist_count": 115,
+    "bar_count": 655,
+    "ranking": 367
+  },
+  {
+    "id": 18883,
+    "abv": 57,
+    "spirit_type": "Whiskey",
+    "fair_price": 95.43,
+    "total_score": 1060,
+    "wishlist_count": 99,
+    "bar_count": 686,
+    "ranking": 368
+  },
+  {
+    "id": 2363,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 59.47,
+    "total_score": 1059,
+    "wishlist_count": 82,
+    "bar_count": 698,
+    "ranking": 369
+  },
+  {
+    "id": 18708,
+    "abv": 49.5,
+    "spirit_type": "Rye",
+    "fair_price": 155.83,
+    "total_score": 1052,
+    "wishlist_count": 107,
+    "bar_count": 571,
+    "ranking": 370
+  },
+  {
+    "id": 17063,
+    "abv": 50.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 118.49,
+    "total_score": 1050,
+    "wishlist_count": 211,
+    "bar_count": 444,
+    "ranking": 371
+  },
+  {
+    "id": 4857,
+    "abv": 45,
+    "spirit_type": "Whiskey",
+    "fair_price": 38.72,
+    "total_score": 1047,
+    "wishlist_count": 120,
+    "bar_count": 652,
+    "ranking": 372
+  },
+  {
+    "id": 2028,
+    "abv": 47,
+    "spirit_type": "Whiskey",
+    "fair_price": 133.4,
+    "total_score": 1046,
+    "wishlist_count": 286,
+    "bar_count": 410,
+    "ranking": 373
+  },
+  {
+    "id": 993,
+    "abv": 46,
+    "spirit_type": "Rye",
+    "fair_price": 74.45,
+    "total_score": 1046,
+    "wishlist_count": 107,
+    "bar_count": 655,
+    "ranking": 373
+  },
+  {
+    "id": 18110,
+    "abv": 43.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 35.19,
+    "total_score": 1046,
+    "wishlist_count": 174,
+    "bar_count": 615,
+    "ranking": 373
+  },
+  {
+    "id": 19594,
+    "abv": 47.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 47.72,
+    "total_score": 1045,
+    "wishlist_count": 85,
+    "bar_count": 680,
+    "ranking": 376
+  },
+  {
+    "id": 2753,
+    "abv": 58.9,
+    "spirit_type": "Rye",
+    "fair_price": 106.16,
+    "total_score": 1037,
+    "wishlist_count": 124,
+    "bar_count": 678,
+    "ranking": 377
+  },
+  {
+    "id": 2973,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 41.77,
+    "total_score": 1035,
+    "wishlist_count": 81,
+    "bar_count": 714,
+    "ranking": 378
+  },
+  {
+    "id": 2592,
+    "abv": 60,
+    "spirit_type": "Bourbon",
+    "fair_price": 107.76,
+    "total_score": 1034,
+    "wishlist_count": 329,
+    "bar_count": 392,
+    "ranking": 379
+  },
+  {
+    "id": 41054,
+    "abv": 60.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 118.93,
+    "total_score": 1031,
+    "wishlist_count": 215,
+    "bar_count": 563,
+    "ranking": 380
+  },
+  {
+    "id": 858,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 41.54,
+    "total_score": 1030,
+    "wishlist_count": 50,
+    "bar_count": 723,
+    "ranking": 381
+  },
+  {
+    "id": 17158,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 55.93,
+    "total_score": 1030,
+    "wishlist_count": 94,
+    "bar_count": 651,
+    "ranking": 381
+  },
+  {
+    "id": 651,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 134.22,
+    "total_score": 1028,
+    "wishlist_count": 63,
+    "bar_count": 653,
+    "ranking": 383
+  },
+  {
+    "id": 5029,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 40.52,
+    "total_score": 1027,
+    "wishlist_count": 82,
+    "bar_count": 643,
+    "ranking": 384
+  },
+  {
+    "id": 20575,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 221.85,
+    "total_score": 1027,
+    "wishlist_count": 132,
+    "bar_count": 524,
+    "ranking": 384
+  },
+  {
+    "id": 2833,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 41.74,
+    "total_score": 1024,
+    "wishlist_count": 63,
+    "bar_count": 669,
+    "ranking": 386
+  },
+  {
+    "id": 4709,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 58.44,
+    "total_score": 1021,
+    "wishlist_count": 104,
+    "bar_count": 667,
+    "ranking": 387
+  },
+  {
+    "id": 32083,
+    "abv": 49.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 211.55,
+    "total_score": 1018,
+    "wishlist_count": 114,
+    "bar_count": 707,
+    "ranking": 388
+  },
+  {
+    "id": 18138,
+    "abv": 62,
+    "spirit_type": "Bourbon",
+    "fair_price": 116.24,
+    "total_score": 1009,
+    "wishlist_count": 60,
+    "bar_count": 702,
+    "ranking": 389
+  },
+  {
+    "id": 17611,
+    "abv": 49.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 294.52,
+    "total_score": 1000,
+    "wishlist_count": 379,
+    "bar_count": 361,
+    "ranking": 390
+  },
+  {
+    "id": 27160,
+    "abv": 62.1,
+    "spirit_type": "Bourbon",
+    "fair_price": 84.69,
+    "total_score": 1000,
+    "wishlist_count": 41,
+    "bar_count": 870,
+    "ranking": 390
+  },
+  {
+    "id": 53003,
+    "abv": 64.45,
+    "spirit_type": null,
+    "fair_price": 242.72,
+    "total_score": 1026,
+    "wishlist_count": 128,
+    "bar_count": 555,
+    "ranking": 390
+  },
+  {
+    "id": 19883,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 28.09,
+    "total_score": 996,
+    "wishlist_count": 89,
+    "bar_count": 661,
+    "ranking": 392
+  },
+  {
+    "id": 17905,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 101.29,
+    "total_score": 995,
+    "wishlist_count": 109,
+    "bar_count": 631,
+    "ranking": 393
+  },
+  {
+    "id": 18440,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 98.96,
+    "total_score": 995,
+    "wishlist_count": 55,
+    "bar_count": 673,
+    "ranking": 393
+  },
+  {
+    "id": 2192,
+    "abv": 45,
+    "spirit_type": "Rye",
+    "fair_price": 532.86,
+    "total_score": 994,
+    "wishlist_count": 556,
+    "bar_count": 168,
+    "ranking": 395
+  },
+  {
+    "id": 726,
+    "abv": 43,
+    "spirit_type": "Scotch",
+    "fair_price": 92.88,
+    "total_score": 993,
+    "wishlist_count": 86,
+    "bar_count": 640,
+    "ranking": 396
+  },
+  {
+    "id": 4789,
+    "abv": 47.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 68.6,
+    "total_score": 988,
+    "wishlist_count": 97,
+    "bar_count": 637,
+    "ranking": 397
+  },
+  {
+    "id": 18521,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 95.06,
+    "total_score": 986,
+    "wishlist_count": 113,
+    "bar_count": 626,
+    "ranking": 398
+  },
+  {
+    "id": 16248,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 29.38,
+    "total_score": 985,
+    "wishlist_count": 30,
+    "bar_count": 755,
+    "ranking": 399
+  },
+  {
+    "id": 27294,
+    "abv": 62.25,
+    "spirit_type": "Bourbon",
+    "fair_price": 121.89,
+    "total_score": 984,
+    "wishlist_count": 49,
+    "bar_count": 808,
+    "ranking": 400
+  },
+  {
+    "id": 20206,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 38.99,
+    "total_score": 984,
+    "wishlist_count": 33,
+    "bar_count": 674,
+    "ranking": 400
+  },
+  {
+    "id": 3616,
+    "abv": 35,
+    "spirit_type": "Whiskey",
+    "fair_price": 38.96,
+    "total_score": 984,
+    "wishlist_count": 45,
+    "bar_count": 723,
+    "ranking": 400
+  },
+  {
+    "id": 39325,
+    "abv": 62.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 131.16,
+    "total_score": 980,
+    "wishlist_count": 92,
+    "bar_count": 836,
+    "ranking": 403
+  },
+  {
+    "id": 17378,
+    "abv": 59,
+    "spirit_type": "Bourbon",
+    "fair_price": 83.14,
+    "total_score": 980,
+    "wishlist_count": 82,
+    "bar_count": 666,
+    "ranking": 403
+  },
+  {
+    "id": 4496,
+    "abv": 45.1,
+    "spirit_type": "Bourbon",
+    "fair_price": 97.71,
+    "total_score": 974,
+    "wishlist_count": 96,
+    "bar_count": 630,
+    "ranking": 405
+  },
+  {
+    "id": 19147,
+    "abv": 53.65,
+    "spirit_type": "Whiskey",
+    "fair_price": 113.08,
+    "total_score": 973,
+    "wishlist_count": 165,
+    "bar_count": 547,
+    "ranking": 406
+  },
+  {
+    "id": 48295,
+    "abv": 65.15,
+    "spirit_type": "Bourbon",
+    "fair_price": 135.62,
+    "total_score": 973,
+    "wishlist_count": 86,
+    "bar_count": 694,
+    "ranking": 406
+  },
+  {
+    "id": 39943,
+    "abv": 61.6,
+    "spirit_type": "Whiskey",
+    "fair_price": 106.43,
+    "total_score": 969,
+    "wishlist_count": 102,
+    "bar_count": 639,
+    "ranking": 408
+  },
+  {
+    "id": 16050,
+    "abv": 57.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 186.15,
+    "total_score": 969,
+    "wishlist_count": 125,
+    "bar_count": 548,
+    "ranking": 408
+  },
+  {
+    "id": 567,
+    "abv": 45.2,
+    "spirit_type": "Rye",
+    "fair_price": 51.17,
+    "total_score": 967,
+    "wishlist_count": 59,
+    "bar_count": 695,
+    "ranking": 410
+  },
+  {
+    "id": 49176,
+    "abv": 50.6,
+    "spirit_type": "Bourbon",
+    "fair_price": 122.17,
+    "total_score": 967,
+    "wishlist_count": 173,
+    "bar_count": 612,
+    "ranking": 410
+  },
+  {
+    "id": 14303,
+    "abv": 65.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 98.07,
+    "total_score": 964,
+    "wishlist_count": 281,
+    "bar_count": 346,
+    "ranking": 412
+  },
+  {
+    "id": 13891,
+    "abv": 58.9,
+    "spirit_type": "Whisky",
+    "fair_price": 152.28,
+    "total_score": 962,
+    "wishlist_count": 178,
+    "bar_count": 429,
+    "ranking": 413
+  },
+  {
+    "id": 17399,
+    "abv": 62,
+    "spirit_type": "Bourbon",
+    "fair_price": 86.86,
+    "total_score": 958,
+    "wishlist_count": 110,
+    "bar_count": 602,
+    "ranking": 414
+  },
+  {
+    "id": 1286,
+    "abv": 45.5,
+    "spirit_type": "Whiskey",
+    "fair_price": 121.62,
+    "total_score": 957,
+    "wishlist_count": 123,
+    "bar_count": 503,
+    "ranking": 415
+  },
+  {
+    "id": 3208,
+    "abv": 43,
+    "spirit_type": "Single Malt Scotch Whisky",
+    "fair_price": 85.27,
+    "total_score": 957,
+    "wishlist_count": 119,
+    "bar_count": 601,
+    "ranking": 415
+  },
+  {
+    "id": 17862,
+    "abv": 43.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 33.13,
+    "total_score": 956,
+    "wishlist_count": 95,
+    "bar_count": 657,
+    "ranking": 417
+  },
+  {
+    "id": 17064,
+    "abv": 50,
+    "spirit_type": "Whiskey",
+    "fair_price": 56.2,
+    "total_score": 954,
+    "wishlist_count": 107,
+    "bar_count": 552,
+    "ranking": 418
+  },
+  {
+    "id": 1786,
+    "abv": 57.5,
+    "spirit_type": "Rye",
+    "fair_price": 79.14,
+    "total_score": 954,
+    "wishlist_count": 39,
+    "bar_count": 694,
+    "ranking": 418
+  },
+  {
+    "id": 11663,
+    "abv": 40,
+    "spirit_type": "Tequila",
+    "fair_price": 194.98,
+    "total_score": 952,
+    "wishlist_count": 110,
+    "bar_count": 543,
+    "ranking": 420
+  },
+  {
+    "id": 20692,
+    "abv": 57.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 225.15,
+    "total_score": 952,
+    "wishlist_count": 263,
+    "bar_count": 357,
+    "ranking": 420
+  },
+  {
+    "id": 17101,
+    "abv": 63.95,
+    "spirit_type": "Bourbon",
+    "fair_price": 126.1,
+    "total_score": 950,
+    "wishlist_count": 93,
+    "bar_count": 601,
+    "ranking": 422
+  },
+  {
+    "id": 16879,
+    "abv": 49,
+    "spirit_type": "Bourbon",
+    "fair_price": 62.7,
+    "total_score": 947,
+    "wishlist_count": 139,
+    "bar_count": 581,
+    "ranking": 423
+  },
+  {
+    "id": 43333,
+    "abv": 45.6,
+    "spirit_type": "Whiskey",
+    "fair_price": 224.96,
+    "total_score": 947,
+    "wishlist_count": 118,
+    "bar_count": 635,
+    "ranking": 423
+  },
+  {
+    "id": 12408,
+    "abv": 40,
+    "spirit_type": "Tequila",
+    "fair_price": 190.43,
+    "total_score": 944,
+    "wishlist_count": 96,
+    "bar_count": 556,
+    "ranking": 425
+  },
+  {
+    "id": 13979,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 252.23,
+    "total_score": 935,
+    "wishlist_count": 585,
+    "bar_count": 138,
+    "ranking": 426
+  },
+  {
+    "id": 3097,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 476.63,
+    "total_score": 930,
+    "wishlist_count": 665,
+    "bar_count": 45,
+    "ranking": 427
+  },
+  {
+    "id": 4622,
+    "abv": 43,
+    "spirit_type": "Whiskey",
+    "fair_price": 101.34,
+    "total_score": 930,
+    "wishlist_count": 127,
+    "bar_count": 546,
+    "ranking": 427
+  },
+  {
+    "id": 16502,
+    "abv": 47,
+    "spirit_type": "Bourbon",
+    "fair_price": 44.94,
+    "total_score": 930,
+    "wishlist_count": 95,
+    "bar_count": 578,
+    "ranking": 427
+  },
+  {
+    "id": 413,
+    "abv": 43,
+    "spirit_type": "Bourbon",
+    "fair_price": 18.38,
+    "total_score": 929,
+    "wishlist_count": 99,
+    "bar_count": 352,
+    "ranking": 430
+  },
+  {
+    "id": 3956,
+    "abv": 45.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 51.57,
+    "total_score": 927,
+    "wishlist_count": 99,
+    "bar_count": 610,
+    "ranking": 431
+  },
+  {
+    "id": 20813,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 64.42,
+    "total_score": 923,
+    "wishlist_count": 47,
+    "bar_count": 619,
+    "ranking": 432
+  },
+  {
+    "id": 1693,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 16.98,
+    "total_score": 917,
+    "wishlist_count": 101,
+    "bar_count": 612,
+    "ranking": 433
+  },
+  {
+    "id": 1753,
+    "abv": 51,
+    "spirit_type": "Bourbon",
+    "fair_price": 49.34,
+    "total_score": 917,
+    "wishlist_count": 179,
+    "bar_count": 471,
+    "ranking": 433
+  },
+  {
+    "id": 18439,
+    "abv": 55,
+    "spirit_type": "Bourbon",
+    "fair_price": 123.39,
+    "total_score": 910,
+    "wishlist_count": 94,
+    "bar_count": 638,
+    "ranking": 435
+  },
+  {
+    "id": 17547,
+    "abv": 61.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 64.12,
+    "total_score": 894,
+    "wishlist_count": 69,
+    "bar_count": 579,
+    "ranking": 436
+  },
+  {
+    "id": 46347,
+    "abv": 67.5,
+    "spirit_type": "Whiskey",
+    "fair_price": 252.21,
+    "total_score": 893,
+    "wishlist_count": 381,
+    "bar_count": 290,
+    "ranking": 437
+  },
+  {
+    "id": 19658,
+    "abv": 55.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 137.21,
+    "total_score": 891,
+    "wishlist_count": 92,
+    "bar_count": 511,
+    "ranking": 438
+  },
+  {
+    "id": 1730,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 290.14,
+    "total_score": 888,
+    "wishlist_count": 651,
+    "bar_count": 79,
+    "ranking": 439
+  },
+  {
+    "id": 2419,
+    "abv": 35,
+    "spirit_type": "Canadian Whisky",
+    "fair_price": 32.37,
+    "total_score": 888,
+    "wishlist_count": 55,
+    "bar_count": 642,
+    "ranking": 439
+  },
+  {
+    "id": 6462,
+    "abv": 44,
+    "spirit_type": "Gins",
+    "fair_price": 40.56,
+    "total_score": 884,
+    "wishlist_count": 116,
+    "bar_count": 458,
+    "ranking": 441
+  },
+  {
+    "id": 15345,
+    "abv": 62.9,
+    "spirit_type": "Whiskey",
+    "fair_price": 386.68,
+    "total_score": 878,
+    "wishlist_count": 426,
+    "bar_count": 95,
+    "ranking": 442
+  },
+  {
+    "id": 2670,
+    "abv": 55,
+    "spirit_type": "Bourbon",
+    "fair_price": 146.87,
+    "total_score": 877,
+    "wishlist_count": 360,
+    "bar_count": 283,
+    "ranking": 443
+  },
+  {
+    "id": 4859,
+    "abv": 42,
+    "spirit_type": "Whiskey",
+    "fair_price": 66.55,
+    "total_score": 873,
+    "wishlist_count": 110,
+    "bar_count": 558,
+    "ranking": 444
+  },
+  {
+    "id": 145,
+    "abv": 65,
+    "spirit_type": "Bourbon",
+    "fair_price": 67.63,
+    "total_score": 872,
+    "wishlist_count": 258,
+    "bar_count": 299,
+    "ranking": 445
+  },
+  {
+    "id": 4864,
+    "abv": 40,
+    "spirit_type": "Scotch",
+    "fair_price": 59.28,
+    "total_score": 868,
+    "wishlist_count": 151,
+    "bar_count": 496,
+    "ranking": 446
+  },
+  {
+    "id": 19569,
+    "abv": 58.5,
+    "spirit_type": "Whiskey",
+    "fair_price": 86.22,
+    "total_score": 867,
+    "wishlist_count": 116,
+    "bar_count": 577,
+    "ranking": 447
+  },
+  {
+    "id": 17420,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 831.74,
+    "total_score": 864,
+    "wishlist_count": 574,
+    "bar_count": 14,
+    "ranking": 448
+  },
+  {
+    "id": 363,
+    "abv": 43,
+    "spirit_type": "Bourbon",
+    "fair_price": 28.12,
+    "total_score": 862,
+    "wishlist_count": 71,
+    "bar_count": 566,
+    "ranking": 449
+  },
+  {
+    "id": 1297,
+    "abv": 45,
+    "spirit_type": "Rye",
+    "fair_price": 48.3,
+    "total_score": 854,
+    "wishlist_count": 90,
+    "bar_count": 578,
+    "ranking": 450
+  },
+  {
+    "id": 17126,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 22.16,
+    "total_score": 854,
+    "wishlist_count": 67,
+    "bar_count": 591,
+    "ranking": 450
+  },
+  {
+    "id": 17354,
+    "abv": 50,
+    "spirit_type": "Whiskey",
+    "fair_price": 126.61,
+    "total_score": 851,
+    "wishlist_count": 73,
+    "bar_count": 485,
+    "ranking": 452
+  },
+  {
+    "id": 2128,
+    "abv": 43,
+    "spirit_type": "Scotch",
+    "fair_price": 100.48,
+    "total_score": 848,
+    "wishlist_count": 111,
+    "bar_count": 519,
+    "ranking": 453
+  },
+  {
+    "id": 45695,
+    "abv": 60,
+    "spirit_type": "Bourbon",
+    "fair_price": 283.51,
+    "total_score": 845,
+    "wishlist_count": 145,
+    "bar_count": 491,
+    "ranking": 454
+  },
+  {
+    "id": 18872,
+    "abv": 48,
+    "spirit_type": "Bourbon",
+    "fair_price": 403.53,
+    "total_score": 844,
+    "wishlist_count": 273,
+    "bar_count": 282,
+    "ranking": 455
+  },
+  {
+    "id": 2433,
+    "abv": 40,
+    "spirit_type": "Scotch",
+    "fair_price": 52.81,
+    "total_score": 842,
+    "wishlist_count": 150,
+    "bar_count": 451,
+    "ranking": 456
+  },
+  {
+    "id": 18356,
+    "abv": 65.55,
+    "spirit_type": "Bourbon",
+    "fair_price": 249.2,
+    "total_score": 840,
+    "wishlist_count": 157,
+    "bar_count": 499,
+    "ranking": 457
+  },
+  {
+    "id": 16995,
+    "abv": 52.35,
+    "spirit_type": "Bourbon",
+    "fair_price": 167.84,
+    "total_score": 838,
+    "wishlist_count": 291,
+    "bar_count": 248,
+    "ranking": 458
+  },
+  {
+    "id": 16458,
+    "abv": 51.5,
+    "spirit_type": "Rye",
+    "fair_price": 44.06,
+    "total_score": 831,
+    "wishlist_count": 49,
+    "bar_count": 587,
+    "ranking": 459
+  },
+  {
+    "id": 34209,
+    "abv": 62.7,
+    "spirit_type": "Bourbon",
+    "fair_price": 89.4,
+    "total_score": 830,
+    "wishlist_count": 73,
+    "bar_count": 620,
+    "ranking": 460
+  },
+  {
+    "id": 20519,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 133.85,
+    "total_score": 826,
+    "wishlist_count": 52,
+    "bar_count": 461,
+    "ranking": 461
+  },
+  {
+    "id": 17389,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 84.93,
+    "total_score": 825,
+    "wishlist_count": 133,
+    "bar_count": 490,
+    "ranking": 462
+  },
+  {
+    "id": 4631,
+    "abv": 43,
+    "spirit_type": "Bourbon",
+    "fair_price": 42.32,
+    "total_score": 822,
+    "wishlist_count": 145,
+    "bar_count": 422,
+    "ranking": 463
+  },
+  {
+    "id": 5151,
+    "abv": 46,
+    "spirit_type": "Rye",
+    "fair_price": 70.95,
+    "total_score": 821,
+    "wishlist_count": 150,
+    "bar_count": 494,
+    "ranking": 464
+  },
+  {
+    "id": 19555,
+    "abv": 58.5,
+    "spirit_type": "Rye",
+    "fair_price": 81.07,
+    "total_score": 821,
+    "wishlist_count": 114,
+    "bar_count": 547,
+    "ranking": 464
+  },
+  {
+    "id": 17264,
+    "abv": 50,
+    "spirit_type": "Rye",
+    "fair_price": 82.22,
+    "total_score": 818,
+    "wishlist_count": 85,
+    "bar_count": 554,
+    "ranking": 466
+  },
+  {
+    "id": 3562,
+    "abv": 47.8,
+    "spirit_type": "Rye",
+    "fair_price": 518.88,
+    "total_score": 812,
+    "wishlist_count": 375,
+    "bar_count": 207,
+    "ranking": 467
+  },
+  {
+    "id": 44603,
+    "abv": 59.65,
+    "spirit_type": "Bourbon",
+    "fair_price": 330.08,
+    "total_score": 812,
+    "wishlist_count": 279,
+    "bar_count": 347,
+    "ranking": 467
+  },
+  {
+    "id": 19812,
+    "abv": 69.35,
+    "spirit_type": "Bourbon",
+    "fair_price": 461.1,
+    "total_score": 811,
+    "wishlist_count": 279,
+    "bar_count": 298,
+    "ranking": 469
+  },
+  {
+    "id": 3884,
+    "abv": 40,
+    "spirit_type": "Scotch",
+    "fair_price": 47.86,
+    "total_score": 811,
+    "wishlist_count": 58,
+    "bar_count": 588,
+    "ranking": 469
+  },
+  {
+    "id": 22361,
+    "abv": 59.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 94.63,
+    "total_score": 808,
+    "wishlist_count": 26,
+    "bar_count": 720,
+    "ranking": 471
+  },
+  {
+    "id": 17261,
+    "abv": 50.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 254.64,
+    "total_score": 806,
+    "wishlist_count": 206,
+    "bar_count": 312,
+    "ranking": 472
+  },
+  {
+    "id": 20518,
+    "abv": 55,
+    "spirit_type": "Bourbon",
+    "fair_price": 83.35,
+    "total_score": 804,
+    "wishlist_count": 72,
+    "bar_count": 545,
+    "ranking": 473
+  },
+  {
+    "id": 21216,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 109.66,
+    "total_score": 791,
+    "wishlist_count": 38,
+    "bar_count": 569,
+    "ranking": 474
+  },
+  {
+    "id": 28334,
+    "abv": 48,
+    "spirit_type": "Bourbon",
+    "fair_price": 117.24,
+    "total_score": 790,
+    "wishlist_count": 114,
+    "bar_count": 565,
+    "ranking": 475
+  },
+  {
+    "id": 17356,
+    "abv": 45.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 144.78,
+    "total_score": 789,
+    "wishlist_count": 73,
+    "bar_count": 439,
+    "ranking": 476
+  },
+  {
+    "id": 20824,
+    "abv": 45.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 137.18,
+    "total_score": 788,
+    "wishlist_count": 73,
+    "bar_count": 513,
+    "ranking": 477
+  },
+  {
+    "id": 5208,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 14.3,
+    "total_score": 783,
+    "wishlist_count": 75,
+    "bar_count": 518,
+    "ranking": 478
+  },
+  {
+    "id": 1533,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 17.8,
+    "total_score": 783,
+    "wishlist_count": 111,
+    "bar_count": 477,
+    "ranking": 478
+  },
+  {
+    "id": 14242,
+    "abv": 50.5,
+    "spirit_type": "Rye",
+    "fair_price": 27.71,
+    "total_score": 782,
+    "wishlist_count": 55,
+    "bar_count": 534,
+    "ranking": 480
+  },
+  {
+    "id": 18042,
+    "abv": 65.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 139.68,
+    "total_score": 781,
+    "wishlist_count": 67,
+    "bar_count": 477,
+    "ranking": 481
+  },
+  {
+    "id": 4723,
+    "abv": 40,
+    "spirit_type": "Irish Whiskey",
+    "fair_price": 49.99,
+    "total_score": 780,
+    "wishlist_count": 72,
+    "bar_count": 532,
+    "ranking": 482
+  },
+  {
+    "id": 18002,
+    "abv": 43.3,
+    "spirit_type": "Bourbon",
+    "fair_price": 55.34,
+    "total_score": 778,
+    "wishlist_count": 44,
+    "bar_count": 577,
+    "ranking": 483
+  },
+  {
+    "id": 149,
+    "abv": 45.2,
+    "spirit_type": "Bourbon",
+    "fair_price": 49.68,
+    "total_score": 777,
+    "wishlist_count": 54,
+    "bar_count": 497,
+    "ranking": 484
+  },
+  {
+    "id": 2371,
+    "abv": 40,
+    "spirit_type": "Bourbon",
+    "fair_price": 21.21,
+    "total_score": 774,
+    "wishlist_count": 118,
+    "bar_count": 413,
+    "ranking": 485
+  },
+  {
+    "id": 3213,
+    "abv": 43,
+    "spirit_type": "Bourbon",
+    "fair_price": 49.93,
+    "total_score": 774,
+    "wishlist_count": 79,
+    "bar_count": 504,
+    "ranking": 485
+  },
+  {
+    "id": 46278,
+    "abv": 53.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 479.79,
+    "total_score": 774,
+    "wishlist_count": 364,
+    "bar_count": 220,
+    "ranking": 485
+  },
+  {
+    "id": 3672,
+    "abv": 59.65,
+    "spirit_type": "Bourbon",
+    "fair_price": 226.76,
+    "total_score": 770,
+    "wishlist_count": 217,
+    "bar_count": 309,
+    "ranking": 488
+  },
+  {
+    "id": 32717,
+    "abv": 45,
+    "spirit_type": "Bourbon",
+    "fair_price": 35.76,
+    "total_score": 769,
+    "wishlist_count": 75,
+    "bar_count": 560,
+    "ranking": 489
+  },
+  {
+    "id": 42831,
+    "abv": 54,
+    "spirit_type": null,
+    "fair_price": 212.8,
+    "total_score": 775,
+    "wishlist_count": 131,
+    "bar_count": 491,
+    "ranking": 489
+  },
+  {
+    "id": 19466,
+    "abv": 55,
+    "spirit_type": "Rye",
+    "fair_price": 144.83,
+    "total_score": 763,
+    "wishlist_count": 84,
+    "bar_count": 466,
+    "ranking": 490
+  },
+  {
+    "id": 17156,
+    "abv": 60.95,
+    "spirit_type": "Bourbon",
+    "fair_price": 73.06,
+    "total_score": 762,
+    "wishlist_count": 68,
+    "bar_count": 514,
+    "ranking": 491
+  },
+  {
+    "id": 17900,
+    "abv": 46,
+    "spirit_type": "Bourbon",
+    "fair_price": 42.55,
+    "total_score": 760,
+    "wishlist_count": 24,
+    "bar_count": 558,
+    "ranking": 492
+  },
+  {
+    "id": 19223,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 438.87,
+    "total_score": 760,
+    "wishlist_count": 122,
+    "bar_count": 336,
+    "ranking": 492
+  },
+  {
+    "id": 1355,
+    "abv": 45,
+    "spirit_type": "Japanese Whisky",
+    "fair_price": 76.44,
+    "total_score": 760,
+    "wishlist_count": 145,
+    "bar_count": 430,
+    "ranking": 492
+  },
+  {
+    "id": 17500,
+    "abv": 46.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 45.48,
+    "total_score": 755,
+    "wishlist_count": 27,
+    "bar_count": 548,
+    "ranking": 495
+  },
+  {
+    "id": 19811,
+    "abv": 49,
+    "spirit_type": "Bourbon",
+    "fair_price": 139.16,
+    "total_score": 752,
+    "wishlist_count": 150,
+    "bar_count": 336,
+    "ranking": 496
+  },
+  {
+    "id": 20648,
+    "abv": 54.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 90.02,
+    "total_score": 752,
+    "wishlist_count": 43,
+    "bar_count": 554,
+    "ranking": 496
+  },
+  {
+    "id": 13581,
+    "abv": 55.7,
+    "spirit_type": "Bourbon",
+    "fair_price": 276.44,
+    "total_score": 752,
+    "wishlist_count": 438,
+    "bar_count": 119,
+    "ranking": 496
+  },
+  {
+    "id": 12152,
+    "abv": 40,
+    "spirit_type": null,
+    "fair_price": 110.2,
+    "total_score": 761,
+    "wishlist_count": 107,
+    "bar_count": 477,
+    "ranking": 497
+  },
+  {
+    "id": 17644,
+    "abv": 50,
+    "spirit_type": "Bourbon",
+    "fair_price": 60.37,
+    "total_score": 748,
+    "wishlist_count": 88,
+    "bar_count": 456,
+    "ranking": 499
+  },
+  {
+    "id": 20789,
+    "abv": 57.5,
+    "spirit_type": "Bourbon",
+    "fair_price": 106.78,
+    "total_score": 745,
+    "wishlist_count": 33,
+    "bar_count": 513,
+    "ranking": 500
+  }
+]
