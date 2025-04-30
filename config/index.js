@@ -8,7 +8,7 @@ const config = {
   googleApiKey: process.env.GOOGLE_API_KEY,
   baxusApiUrl: process.env.BAXUS_API_URL || 'https://services.baxus.co/api', // Default if not set
   port: process.env.PORT || 3000, // Default port
-  llmModel: process.env.GEMINI_MODEL || 'gemini-1.5-flash-latest' // Use a more general env var
+  llmModel: process.env.GEMINI_MODEL || 'gemini-2.0-flash' // Use a more general env var
 };
 
 // Validate essential configuration
