@@ -3,8 +3,8 @@ import express from 'express';
 import NodeCache from 'node-cache'; // Import NodeCache
 import { getRecommendations, getRecommendationsByPrice, getRecommendationsByProfile, getComplementaryRecommendations } from '../services/recommendation/index.js';
 
-// Initialize cache for recommendations: TTL 900s (15 min), check period 120s
-const recommendationCache = new NodeCache({ stdTTL: 900, checkperiod: 120 });
+// Initialize cache for recommendations: TTL 120s (2 min), check period 120s
+const recommendationCache = new NodeCache({ stdTTL: 120, checkperiod: 120 });
 
 const router = express.Router();
 

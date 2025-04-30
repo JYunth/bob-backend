@@ -14,7 +14,7 @@ Bob Backend is a Node.js application that provides personalized whisky recommend
 *   **External Data Integration:** Fetches user whisky collection data from the Baxus API.
 *   **AI-Powered Recommendations:** Uses Google's Generative AI models to analyze user data and generate relevant recommendations with reasoning.
 *   **Data-Driven:** Relies on a local `bottles.json` file containing details about various whiskies.
-*   **Caching:** Implements in-memory caching for Baxus API responses and recommendation results to improve performance and reduce external API calls.
+*   **Caching:** Implements in-memory caching for recommendation results to improve performance for repeated requests.
 
 ## Technology Stack
 
@@ -45,7 +45,7 @@ Bob Backend is a Node.js application that provides personalized whisky recommend
 │   │   │   ├── priceService.js     # Logic for price-based recommendations
 │   │   │   ├── priceUtils.js     # Helpers for price calculations and filtering
 │   │   │   └── profileService.js   # Logic for profile-based recommendations
-│   │   ├── baxusClient.js     # Client for interacting with the Baxus API (with caching)
+│   │   ├── baxusClient.js     # Client for interacting with the Baxus API
 │   │   └── llmClient.js       # Client for interacting with Google Generative AI
 │   └── utils/
 │       └── dataLoader.js    # Loads and maps bottle data from bottles.json
@@ -118,11 +118,10 @@ All recommendation endpoints are under the `/api` prefix.
               "id": 123,
               "name": "Example Whisky A",
               "image_url": "...",
-              "proof": 93.0, // Example proof, can be null
+              "proof": 93.0,
               "rationale": "Based on your collection...",
               "avg_msrp": 55.99
-            },
-            // ... other recommendations
+            }
           ]
         }
         ```
@@ -134,7 +133,6 @@ All recommendation endpoints are under the `/api` prefix.
         *   `min_price` (query, optional): Minimum fair price.
         *   `max_price` (query, optional): Maximum fair price.
     *   Response:
-*   Example Request: `GET /api/user/someuser/similar-price?min_price=50&amp;max_price=100`
         ```json
         {
           "recommendations": [
@@ -142,11 +140,10 @@ All recommendation endpoints are under the `/api` prefix.
               "id": 456,
               "name": "Example Whisky B",
               "image_url": "...",
-              "proof": 94.0, // Example proof, can be null
+              "proof": 94.0,
               "rationale": "Fits your price range and...",
               "fair_price": 65.00
-            },
-            // ... other recommendations
+            }
           ]
         }
         ```
@@ -156,7 +153,6 @@ All recommendation endpoints are under the `/api` prefix.
     *   Parameters:
         *   `:username` (path): The Baxus username.
         *   `focus` (query, optional): A specific profile aspect to focus on (e.g., 'peaty', 'sherry', 'beginner').
-*   Example Request: `GET /api/user/someuser/similar-profile?focus=peaty`
     *   Response:
         ```json
         {
@@ -165,11 +161,10 @@ All recommendation endpoints are under the `/api` prefix.
               "id": 789,
               "name": "Example Whisky C",
               "image_url": "...",
-              "proof": 90.0, // Example proof, can be null
+              "proof": 90.0,
               "rationale": "Similar profile to whiskies you enjoy...",
               "avg_msrp": 42.50
-            },
-            // ... other recommendations
+            }
           ]
         }
         ```
@@ -186,11 +181,10 @@ All recommendation endpoints are under the `/api` prefix.
               "id": 101,
               "name": "Example Whisky D",
               "image_url": "...",
-              "proof": 100.0, // Example proof, can be null
+              "proof": 100.0,
               "rationale": "Adds diversity with a different region...",
               "avg_msrp": 85.00
-            },
-            // ... other recommendations
+            }
           ]
         }
         ```
@@ -202,8 +196,8 @@ All recommendation endpoints are under the `/api` prefix.
 ## Core Logic Overview
 
 1.  **Request:** An API request is received for a specific user and recommendation type.
-2.  **Caching Check (Routes):** The application first checks if valid recommendations exist in the cache for this specific request. If yes, cached data is returned.
-3.  **Fetch User Data:** If no cache hit, the `baxusClient` fetches the user's bar data from the Baxus API (using its own cache).
+2.  **Caching Check (Routes):** The application first checks if valid recommendations exist in the cache for this specific request (TTL: 2 minutes). If yes, cached data is returned.
+3.  **Fetch User Data:** If no cache hit, the `baxusClient` fetches the user's bar data from the Baxus API.
 4.  **Load Bottle Data:** The `dataLoader` ensures the master `bottlesMap` (from `bottles.json`) is available.
 5.  **Filter Candidates:** Based on the recommendation type, relevant utility functions (`candidateUtils`, `priceUtils`) filter the `bottlesMap` to create a list of potential candidates (bottles the user doesn't own, possibly filtered by price or other criteria).
 6.  **Generate Prompt:** The relevant recommendation service (`generalService`, `priceService`, etc.) constructs a detailed prompt for the LLM, including summaries of the user's collection and the candidate bottles, along with specific instructions based on the recommendation type.
@@ -223,7 +217,6 @@ The application requires a `bottles.json` file in the project root. This file se
 
 ## Caching
 
-Two levels of caching are implemented using `node-cache`:
+Caching is implemented using `node-cache` in the recommendation routes:
 
-1.  **Baxus API Cache (`baxusClient.js`):** Caches responses from the `/bar/user/:username` endpoint of the Baxus API for 15 minutes to reduce load on the external service.
-2.  **Recommendation Cache (`recommendationRoutes.js`):** Caches the final recommendation results for each specific API request (including username and query parameters) for 15 minutes to provide faster responses for repeated requests.
+*   **Recommendation Cache (`recommendationRoutes.js`):** Caches the final recommendation results for each specific API request (including username and query parameters) for 2 minutes (120 seconds) to provide faster responses for repeated requests and reduce load on the backend services and LLM.

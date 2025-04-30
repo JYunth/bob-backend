@@ -1,13 +1,13 @@
 // src/services/baxusClient.js
 import fetch from 'node-fetch';
-import NodeCache from 'node-cache'; // Import NodeCache
+// import NodeCache from 'node-cache'; // Caching removed
 import config from '../../config/index.js';
 
-// Initialize cache: TTL 900s (15 min), check period 60s
-const baxusCache = new NodeCache({ stdTTL: 900, checkperiod: 60 }); // Updated TTL
+// Caching removed
+// const baxusCache = new NodeCache({ stdTTL: 900, checkperiod: 60 });
 
 /**
- * Fetches user bar data from the Baxus API, using an in-memory cache.
+ * Fetches user bar data from the Baxus API.
  * @param {string} username - The username to fetch data for.
  * @returns {Promise<object>} - A promise that resolves with the user's bar data.
  * @throws {Error} - Throws an error if the API request fails or encounters network issues.
@@ -17,21 +17,9 @@ export const getUserBar = async (username) => {
     throw new Error('Username must be a non-empty string.');
   }
 
-  const cacheKey = `baxus_bar_${username}`;
-  try {
-    const cachedData = baxusCache.get(cacheKey);
+  // Caching removed
 
-    if (cachedData !== undefined) { // Explicitly check for undefined, as null/false might be valid cached values
-      console.log(`Cache hit for user bar data: ${username}`);
-      return cachedData; // Return cached data immediately
-    }
-  } catch (error) {
-      console.error(`Error retrieving data from cache for key ${cacheKey}:`, error);
-      // Decide if we should proceed to fetch or throw, here we proceed
-  }
-
-
-  console.log(`Cache miss for user bar data: ${username}. Fetching from API.`);
+  console.log(`Fetching user bar data for ${username} from API.`);
   // Construct the API URL using the base URL from config and the username
   const apiUrl = `${config.baxusApiUrl}/bar/user/${username}`;
   console.log(`Fetching user bar data from: ${apiUrl}`);
@@ -53,20 +41,7 @@ export const getUserBar = async (username) => {
 
     const data = await response.json();
 
-    // Cache the successful response before returning
-    try {
-        const success = baxusCache.set(cacheKey, data); // Check if set was successful
-        if (success) {
-            console.log(`Cached user bar data for: ${username}`);
-        } else {
-            // Log an error if caching failed. This might indicate issues with the data or cache instance.
-            console.error(`Failed to cache user bar data for: ${username}. Cache key: ${cacheKey}. 'set' returned false.`);
-        }
-    } catch (error) {
-        console.error(`Error setting data in cache for key ${cacheKey}:`, error);
-        // Decide if we should throw or just log. Logging allows the function to return data even if caching fails.
-    }
-
+    // Caching removed
 
     return data;
 
