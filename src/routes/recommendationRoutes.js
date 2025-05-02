@@ -256,7 +256,7 @@ import fetch from 'node-fetch'; // Ensure fetch is available if not already impo
 import config from '../../config/index.js';
 
 // GET /api/proxy/bar/:username - Proxy for Baxus user bar data
-router.get('/api/proxy/bar/:username', async (req, res) => {
+router.get('/proxy/bar/:username', async (req, res) => {
   const { username } = req.params;
 
   if (!username) {
@@ -294,7 +294,7 @@ router.get('/api/proxy/bar/:username', async (req, res) => {
 });
 
 // GET /api/proxy/wishlist/:username - Proxy for Baxus user wishlist data
-router.get('/api/proxy/wishlist/:username', async (req, res) => {
+router.get('/proxy/wishlist/:username', async (req, res) => {
   const { username } = req.params;
 
   if (!username) {
