@@ -1,5 +1,6 @@
 // src/services/recommendation/profileService.js
-import { getUserBar } from '../baxusClient.js'; // Adjusted path
+import fetch from 'node-fetch'; // Assuming node-fetch is available or use native fetch if Node version supports it
+import { getUserBar } from '../baxusClient.js';
 import { bottlesMap } from '../../utils/dataLoader.js'; // Adjusted path
 import { generateRecommendationsCore } from './llmHelper.js';
 import { getOwnedBottleIds, filterCandidates, filterHallucinations, mapRecommendationsToDetails } from './candidateUtils.js';
@@ -17,6 +18,7 @@ export const getProfileRecommendations = async (username, profileFocus) => {
   console.log(`[recommendationService:${recommendationType}] Getting recommendations for user: ${username}, focus: ${profileFocus || 'general profile'}`);
 
   let baxusData;
+  let wishlistData = []; // Initialize wishlistData
   try {
     baxusData = await getUserBar(username);
     console.log(`[recommendationService:${recommendationType}] Fetched bar data. Count: ${baxusData?.length ?? 0}`);
@@ -25,8 +27,22 @@ export const getProfileRecommendations = async (username, profileFocus) => {
       baxusData = []; // Ensure baxusData is an array
     }
   } catch (error) {
-    console.error(`[recommendationService:${recommendationType}] Error fetching user bar data for ${username}:`, error);
+    console.error(`[recommendationService:${recommendationType}] Error fetching user bar data for ${username}:`, error.message);
     throw new Error(`Failed to fetch bar data for profile-based recommendations for user ${username}.`);
+  }
+
+  // Fetch Wishlist Data
+  try {
+    const wishlistUrl = `http://localhost:3000/api/proxy/wishlist/${username}`; // Adjust URL as needed
+    const response = await fetch(wishlistUrl);
+    if (response.ok) {
+      wishlistData = await response.json();
+      console.log(`[recommendationService:${recommendationType}] Fetched wishlist data for ${username}. Items: ${wishlistData?.length || 0}`);
+    } else {
+      console.warn(`[recommendationService:${recommendationType}] Warning: Could not fetch wishlist data for user ${username}. Status: ${response.status}`);
+    }
+  } catch (error) {
+    console.warn(`[recommendationService:${recommendationType}] Warning: Error fetching wishlist data for user ${username}:`, error.message);
   }
 
   // --- Data Filtering ---
@@ -62,6 +78,18 @@ export const getProfileRecommendations = async (username, profileFocus) => {
           .join('; ')
       : 'User bar is empty or data unavailable.';
 
+  const wishlistSummary = wishlistData.length > 0
+      ? wishlistData
+          .slice(0, 20) // Limit summary size
+          .map(item => {
+              const product = item.product;
+              if (!product || !product.id) return null;
+              return `${product.name || 'Unknown Bottle'} (ID: ${product.id})`; // Simpler summary for wishlist
+          })
+          .filter(item => item !== null)
+          .join('; ')
+      : 'User wishlist is empty or unavailable.';
+
   const candidateSummary = recommendationCandidates
       .map(b => `${b.name} (ID: ${b.id}, Spirit: ${b.spirit}, Proof: ${b.proof})`)
       .join('; ');
@@ -71,24 +99,29 @@ export const getProfileRecommendations = async (username, profileFocus) => {
     : `Recommend bottles with profiles similar to the user's existing collection.`;
 
   const prompt = `
-System: You are an expert whisky recommender AI. Your goal is to suggest new whiskies to a user based on their existing collection profile and a list of potential candidates.
+System: You are an expert whisky recommender AI. Your goal is to suggest new whiskies to a user based on their existing collection profile, their wishlist, a specific profile focus (if provided), and a list of potential candidates.
 
 User's Current Whisky Collection Summary (Owned Bottles - ID, Name, Spirit, Proof):
 ${ownedBottleSummary}
 (Note: This might be a partial list if the user owns many bottles, or empty if none are owned)
 
+User's Wishlist Summary (Bottles the user wants - ID, Name):
+${wishlistSummary}
+(Note: This might be a partial list if the user's wishlist is large)
+
 Potential Recommendation Candidates (Bottles the user does NOT own - ID, Name, Spirit, Proof):
 ${candidateSummary}
 
 Task:
-Analyze the user's collection profile (considering spirit types, proofs, etc.). ${focusInstruction}
-From the 'Potential Recommendation Candidates' list, recommend ${NUM_RECOMMENDATIONS} whiskies that have a similar profile to what the user seems to enjoy. For each recommendation, provide its ID and a brief reasoning (1-2 sentences) explaining the profile similarity and why the user might like it.
+Analyze the user's collection profile (considering spirit types, proofs, etc.) and their wishlist. ${focusInstruction}
+From the 'Potential Recommendation Candidates' list, recommend ${NUM_RECOMMENDATIONS} whiskies that align with the user's likely profile preferences (and the specific focus, if provided).
+Prioritize recommending items that are NOT in the user's collection and NOT on their wishlist.
+Consider the user's wishlist for similarity and taste profile, but aim to suggest new discoveries that match the profile focus.
+A maximum of 2-3 recommendations can be items directly from the user's wishlist if they strongly align with the user's profile/focus and complement potential new discoveries.
+For each recommendation, provide its ID and a brief reasoning (1-2 sentences) explaining the profile similarity (and focus alignment, if applicable) and why the user might like it, considering both their collection and wishlist.
 
 Output Format:
 Return ONLY a valid JSON array containing ${NUM_RECOMMENDATIONS} objects, where each object has the following structure: {"id": <bottle_id>, "reasoning": "..."}. Do not include any other text, explanations, or markdown formatting like \`\`\`json ... \`\`\` outside the JSON array itself.
-
-Example Output:
-[{"id": 123, "reasoning": "This shares a similar high-proof, rye-forward profile with several bourbons in your collection."}, {"id": 456, "reasoning": "Given your preference for Speyside malts, this sherry cask finish offers a familiar yet distinct experience."}]
 `;
 
   // --- Generate Recommendations using Helper ---

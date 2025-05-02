@@ -1,5 +1,6 @@
 // src/services/recommendation/generalService.js
-import { getUserBar } from '../baxusClient.js'; // Adjusted path
+import fetch from 'node-fetch'; // Assuming node-fetch is available or use native fetch if Node version supports it
+import { getUserBar } from '../baxusClient.js';
 import { bottlesMap } from '../../utils/dataLoader.js'; // Adjusted path
 import { generateRecommendationsCore } from './llmHelper.js';
 import { getOwnedBottleIds, filterCandidates, filterHallucinations, mapRecommendationsToDetails } from './candidateUtils.js';
@@ -16,6 +17,7 @@ export const getGeneralRecommendations = async (username) => {
   console.log(`[recommendationService:${recommendationType}] Starting recommendations for user: ${username}`);
 
   let baxusData;
+  let wishlistData = []; // Initialize wishlistData
   try {
     baxusData = await getUserBar(username);
     console.log(`[recommendationService:${recommendationType}] Fetched bar data for ${username}. Items: ${baxusData?.length || 0}`);
@@ -24,8 +26,24 @@ export const getGeneralRecommendations = async (username) => {
       return [];
     }
   } catch (error) {
-    console.error(`[recommendationService:${recommendationType}] Error fetching user bar data for ${username}:`, error);
+    console.error(`[recommendationService:${recommendationType}] Error fetching user bar data for ${username}:`, error.message);
     throw new Error(`Failed to fetch bar data for user ${username}.`);
+  }
+
+  // Fetch Wishlist Data (following the pattern of bar data fetching)
+  try {
+    // TODO: Replace with actual internal API call or configured base URL
+    const wishlistUrl = `http://localhost:3000/api/proxy/wishlist/${username}`; // Example URL, adjust as needed
+    const response = await fetch(wishlistUrl);
+    if (response.ok) {
+      wishlistData = await response.json();
+      console.log(`[recommendationService:${recommendationType}] Fetched wishlist data for ${username}. Items: ${wishlistData?.length || 0}`);
+    } else {
+      console.warn(`[recommendationService:${recommendationType}] Warning: Could not fetch wishlist data for user ${username}. Status: ${response.status}`);
+    }
+  } catch (error) {
+    console.warn(`[recommendationService:${recommendationType}] Warning: Error fetching wishlist data for user ${username}:`, error.message);
+    // Proceed without wishlist data if fetch fails, wishlistData remains []
   }
 
   // --- Data Filtering ---
@@ -48,25 +66,37 @@ export const getGeneralRecommendations = async (username) => {
       .filter(item => item.includes('ID: ') && !item.includes('ID: null')) // Ensure ID exists for summary
       .join(', ');
   const candidateSummary = recommendationCandidates.map(b => `${b.name} (ID: ${b.id})`).join(', ');
+  const wishlistSummary = wishlistData.length > 0
+      ? wishlistData
+          .slice(0, 20) // Limit summary size
+          .map(item => `${item.product?.name || 'Unknown Bottle'} (ID: ${item.product?.id})`)
+          .filter(item => item.includes('ID: ') && !item.includes('ID: null')) // Ensure ID exists for summary
+          .join(', ')
+      : 'User wishlist is empty or unavailable.';
 
   const prompt = `
-System: You are an expert whisky recommender AI. Your goal is to suggest new whiskies to a user based on their existing collection and a list of potential candidates.
+System: You are an expert whisky recommender AI. Your goal is to suggest new whiskies to a user based on their existing collection, their wishlist, and a list of potential candidates.
 
 User's Current Whisky Collection Summary (Owned Bottle IDs and Names):
 ${ownedBottleSummary}
 (Note: This might be a partial list if the user owns many bottles)
 
+User's Wishlist Summary (Bottles the user wants but may not own):
+${wishlistSummary}
+(Note: This might be a partial list if the user's wishlist is large)
+
 Potential Recommendation Candidates (Bottles the user does NOT own):
 ${candidateSummary}
 
 Task:
-Based on the user's collection and the provided candidates, recommend ${NUM_RECOMMENDATIONS} whiskies from the 'Potential Recommendation Candidates' list that you think the user would enjoy. For each recommendation, provide a brief reasoning (1-2 sentences).
+Based on the user's collection, their wishlist, and the provided candidates, recommend ${NUM_RECOMMENDATIONS} whiskies from the 'Potential Recommendation Candidates' list that you think the user would enjoy.
+Prioritize recommending items that are NOT in the user's collection and NOT on their wishlist.
+Consider the user's wishlist for similarity and taste profile, but aim to suggest new discoveries.
+A maximum of 2-3 recommendations can be items directly from the user's wishlist if they strongly align with the user's profile and complement potential new discoveries.
+For each recommendation, provide a brief reasoning (1-2 sentences).
 
 Output Format:
 Return ONLY a valid JSON array containing ${NUM_RECOMMENDATIONS} objects, where each object has the following structure: {"id": <bottle_id>, "reasoning": "..."}. Do not include any other text, explanations, or markdown formatting like \`\`\`json ... \`\`\` outside the JSON array itself.
-
-Example Output:
-[{"id": 123, "reasoning": "Based on your love for peated Islay malts, this offers a similar smoky profile."}, {"id": 456, "reasoning": "Since you enjoy smooth Speyside whiskies, this sherry-finished expression might be a good fit."}]
 `;
 
   // --- Generate Recommendations using Helper ---

@@ -1,5 +1,6 @@
 // src/services/recommendation/priceService.js
-import { getUserBar } from '../baxusClient.js'; // Adjusted path
+import fetch from 'node-fetch'; // Assuming node-fetch is available or use native fetch if Node version supports it
+import { getUserBar } from '../baxusClient.js';
 import { bottlesMap } from '../../utils/dataLoader.js'; // Adjusted path
 import { generateRecommendationsCore } from './llmHelper.js';
 import { calculateAverageBarPrice, filterCandidatesByPrice } from './priceUtils.js';
@@ -19,6 +20,7 @@ export const getPriceRecommendations = async (username, minPriceInput, maxPriceI
   console.log(`[recommendationService:${recommendationType}] Getting recommendations for user: ${username}, input range: ${minPriceInput}-${maxPriceInput}`);
 
   let baxusData;
+  let wishlistData = []; // Initialize wishlistData
   try {
     baxusData = await getUserBar(username);
     console.log(`[recommendationService:${recommendationType}] Fetched bar data. Count: ${baxusData?.length ?? 0}`);
@@ -26,6 +28,20 @@ export const getPriceRecommendations = async (username, minPriceInput, maxPriceI
   } catch (error) {
     console.error(`[recommendationService:${recommendationType}] Error fetching user bar data for ${username}:`, error);
     throw new Error(`Failed to fetch bar data for price-based recommendations for user ${username}.`);
+  }
+
+  // Fetch Wishlist Data
+  try {
+    const wishlistUrl = `http://localhost:3000/api/proxy/wishlist/${username}`; // Adjust URL as needed
+    const response = await fetch(wishlistUrl);
+    if (response.ok) {
+      wishlistData = await response.json();
+      console.log(`[recommendationService:${recommendationType}] Fetched wishlist data for ${username}. Items: ${wishlistData?.length || 0}`);
+    } else {
+      console.warn(`[recommendationService:${recommendationType}] Warning: Could not fetch wishlist data for user ${username}. Status: ${response.status}`);
+    }
+  } catch (error) {
+    console.warn(`[recommendationService:${recommendationType}] Warning: Error fetching wishlist data for user ${username}:`, error.message);
   }
 
   // --- Calculate Price Range & Filter Candidates ---
@@ -102,15 +118,27 @@ export const getPriceRecommendations = async (username, minPriceInput, maxPriceI
       .filter(item => item.includes('ID: ') && !item.includes('ID: null'))
       .join(', ') || 'None (or data unavailable)';
 
+  const wishlistSummary = wishlistData.length > 0
+      ? wishlistData
+          .slice(0, 20) // Limit summary size
+          .map(item => `${item.product?.name || 'Unknown Bottle'} (ID: ${item.product?.id})`)
+          .filter(item => item.includes('ID: ') && !item.includes('ID: null')) // Ensure ID exists for summary
+          .join(', ')
+      : 'User wishlist is empty or unavailable.';
+
   // Candidate summary includes fair_price from filterCandidatesByPrice
   const candidateSummary = recommendationCandidates.map(b => `${b.name} (ID: ${b.id}, Fair Price: $${b.price?.toFixed(2)})`).join('; ');
 
   const prompt = `
-System: You are an expert whisky recommender AI. Your goal is to suggest new whiskies to a user based on their existing collection (if available) and a list of potential candidates filtered by a specific price range (using Fair Price).
+System: You are an expert whisky recommender AI. Your goal is to suggest new whiskies to a user based on their existing collection, their wishlist, and a list of potential candidates filtered by a specific price range (using Fair Price).
 
 User's Current Whisky Collection Summary (Owned Bottle IDs and Names):
 ${ownedBottleSummary}
 (Note: This might be a partial list or unavailable if the user's bar is empty/private)
+
+User's Wishlist Summary (Bottles the user wants but may not own):
+${wishlistSummary}
+(Note: This might be a partial list if the user's wishlist is large)
 
 Target Price Range for Recommendations:
 Minimum Price: $${minPrice.toFixed(2)}
@@ -120,13 +148,14 @@ Potential Recommendation Candidates (Bottles the user does NOT own AND are withi
 ${candidateSummary}
 
 Task:
-Based on the user's collection (if available) and the provided candidates within the Fair Price range $${minPrice.toFixed(2)} - $${maxPrice.toFixed(2)}, recommend ${NUM_RECOMMENDATIONS} whiskies from the 'Potential Recommendation Candidates' list. Prioritize bottles that fit the Fair Price range well. If the user's collection is known, also consider profile compatibility. For each recommendation, provide a brief reasoning (1-2 sentences) explaining why it's a good fit, mentioning the Fair Price aspect.
+Based on the user's collection (if available), their wishlist, and the provided candidates within the Fair Price range $${minPrice.toFixed(2)} - $${maxPrice.toFixed(2)}, recommend ${NUM_RECOMMENDATIONS} whiskies from the 'Potential Recommendation Candidates' list.
+Prioritize recommending items that fit the Fair Price range well AND are NOT in the user's collection and NOT on their wishlist.
+Consider the user's wishlist for similarity and taste profile, but aim to suggest new discoveries within the price range.
+A maximum of 2-3 recommendations can be items directly from the user's wishlist if they strongly align with the user's profile, fit the price range, and complement potential new discoveries.
+For each recommendation, provide a brief reasoning (1-2 sentences) explaining why it's a good fit, mentioning the Fair Price aspect and its relation to the user's collection/wishlist if relevant.
 
 Output Format:
 Return ONLY a valid JSON array containing ${NUM_RECOMMENDATIONS} objects, where each object has the following structure: {"id": <bottle_id>, "reasoning": "..."}. Do not include any other text, explanations, or markdown formatting like \`\`\`json ... \`\`\` outside the JSON array itself.
-
-Example Output:
-[{"id": 789, "reasoning": "This bottle fits nicely within your $${minPrice.toFixed(2)}-$${maxPrice.toFixed(2)} budget and offers a classic Highland profile."}, {"id": 101, "reasoning": "Considering your price range and enjoyment of bourbon, this single barrel is a great value pick."}]
 `;
 
   // --- Generate Recommendations using Helper ---
