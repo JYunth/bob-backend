@@ -172,8 +172,8 @@ Return ONLY a valid JSON array containing ${NUM_RECOMMENDATIONS} objects, where 
   const validParsedRecommendations = filterHallucinations(parsedRecommendations, recommendationCandidates, username, recommendationType);
 
   // --- Format Final Response ---
-  // Include 'fair_price' in the final output for price recommendations
-  const detailedRecommendations = mapRecommendationsToDetails(validParsedRecommendations, bottlesMap, username, recommendationType, ['fair_price']);
+  // Map recommendations to full details (now includes all fields by default)
+  const detailedRecommendations = mapRecommendationsToDetails(validParsedRecommendations, bottlesMap, username, recommendationType); // Removed extraFields argument
 
 
   console.log(`[recommendationService:${recommendationType}] Formatted ${detailedRecommendations.length} final recommendations for user ${username}.`);

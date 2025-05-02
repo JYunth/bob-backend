@@ -80,10 +80,9 @@ export const filterHallucinations = (parsedRecommendations, recommendationCandid
  * @param {Map<number, object>} bottlesMap - Map of all bottle details.
  * @param {string} username - Username for logging.
  * @param {string} recommendationType - Type of recommendation for logging.
- * @param {Array<string>} [extraFields=[]] - Optional array of extra field names from bottleDetails to include (e.g., ['fair_price']).
- * @returns {Array<object>} - Array of detailed recommendation objects.
+ * @returns {Array<object>} - Array of detailed recommendation objects, including all fields from the bottle data.
  */
-export const mapRecommendationsToDetails = (validParsedRecommendations, bottlesMap, username, recommendationType, extraFields = []) => {
+export const mapRecommendationsToDetails = (validParsedRecommendations, bottlesMap, username, recommendationType) => { // Removed extraFields parameter
     return validParsedRecommendations
       .map(rec => {
         // Basic validation already done in hallucination check, but double-check reasoning format.
@@ -95,36 +94,18 @@ export const mapRecommendationsToDetails = (validParsedRecommendations, bottlesM
         const bottleDetails = bottlesMap.get(rec.id);
 
         if (bottleDetails) {
-          const baseRecommendation = {
-            id: rec.id,
-            name: bottleDetails.name,
-            image_url: bottleDetails.image_url,
-            spirit: bottleDetails.spirit,
-            proof: bottleDetails.proof,
-            rationale: rec.reasoning // Use 'rationale' for consistency
+          // Spread all properties from bottleDetails and add/overwrite rationale
+          const recommendation = {
+            ...bottleDetails, // Include all fields from the enriched data
+            rationale: rec.reasoning // Add the LLM's reasoning
           };
 
-          // Add extra fields if requested and available
-          extraFields.forEach(field => {
-              if (bottleDetails.hasOwnProperty(field)) {
-                  baseRecommendation[field] = bottleDetails[field];
-              } else {
-                   console.warn(`[recommendationService:candidateUtils:${recommendationType}] Requested extra field '${field}' not found for bottle ID ${rec.id} for user ${username}.`);
-              }
-          });
+          // Ensure the ID from the recommendation record is used, in case bottleDetails lacks it (unlikely but safe)
+          recommendation.id = rec.id;
 
-          // Ensure required price fields are present if needed (e.g., average_msrp for general/profile, fair_price for price)
-          // This logic might be better handled within each specific service or by adjusting extraFields input
-          if (recommendationType === 'price' && !baseRecommendation.hasOwnProperty('fair_price')) {
-              baseRecommendation.fair_price = bottleDetails.fair_price; // Ensure fair_price is included for price recs
-          } else if (['general', 'profile', 'complementary'].includes(recommendationType) && !baseRecommendation.hasOwnProperty('avg_msrp')) {
-              baseRecommendation.avg_msrp = bottleDetails.avg_msrp; // Ensure avg_msrp is included for others
-          }
-
-
-          return baseRecommendation;
+          return recommendation;
         } else {
-           // This case should ideally not happen due to the hallucination check
+          // This case should ideally not happen due to the hallucination check
           console.error(`[recommendationService:candidateUtils:${recommendationType}] CRITICAL: Recommended bottle ID ${rec.id} passed hallucination check but was not found in bottlesMap for user ${username}. Data inconsistency?`);
           return null;
         }

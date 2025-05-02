@@ -11,7 +11,7 @@ let bottlesData = [];
 let bottlesMap = new Map();
 
 try {
-  const bottlesPath = path.join(__projectRoot, 'bottles.json'); // Path relative to project root
+  const bottlesPath = path.join(__projectRoot, 'bottles_enriched.json'); // Path relative to project root
   console.log(`Attempting to load bottles data from: ${bottlesPath}`);
   const bottlesContent = fs.readFileSync(bottlesPath, 'utf8');
   bottlesData = JSON.parse(bottlesContent);
@@ -22,10 +22,10 @@ try {
       bottlesMap.set(bottle.id, bottle);
     }
   });
-  console.log(`Successfully loaded and mapped ${bottlesMap.size} bottles from bottles.json`);
+  console.log(`Successfully loaded and mapped ${bottlesMap.size} bottles from bottles_enriched.json`);
 
 } catch (err) {
-  console.error("Error reading or parsing bottles.json in dataLoader:", err);
+  console.error("Error reading or parsing bottles_enriched.json in dataLoader:", err);
   // Depending on requirements, might re-throw or handle differently
   // For now, the server will start but recommendations might fail if map is empty
 }
