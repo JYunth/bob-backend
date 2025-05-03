@@ -223,4 +223,4 @@ Caching is implemented using `node-cache` in the recommendation routes:
 
 The demo frontend to interact with this can be found [here](https://github.com/JYunth/bob-whisky-whisperer-ai)
 
-![Demo video](https://youtu.be/d3bPnNRD-g4)
+[![Demo Video](https://img.youtube.com/vi/d3bPnNRD-g4.jpg)](https://youtu.be/d3bPnNRD-g4)
