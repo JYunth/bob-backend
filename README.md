@@ -222,4 +222,5 @@ Caching is implemented using `node-cache` in the recommendation routes:
 *   **Recommendation Cache (`recommendationRoutes.js`):** Caches the final recommendation results for each specific API request (including username and query parameters) for 2 minutes (120 seconds) to provide faster responses for repeated requests and reduce load on the backend services and LLM.
 
 The demo frontend to interact with this can be found [here](https://github.com/JYunth/bob-whisky-whisperer-ai)
+
 ![Demo video](https://youtu.be/d3bPnNRD-g4)
