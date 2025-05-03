@@ -254,6 +254,7 @@ router.get('/user/:username/complementary', async (req, res) => {
 import { getUserBar } from '../services/baxusClient.js';
 import fetch from 'node-fetch'; // Ensure fetch is available if not already imported globally
 import config from '../../config/index.js';
+import { bottlesMap } from '../utils/dataLoader.js'; // Import the enriched bottles map
 
 // GET /api/proxy/bar/:username - Proxy for Baxus user bar data
 router.get('/proxy/bar/:username', async (req, res) => {
@@ -268,7 +269,23 @@ router.get('/proxy/bar/:username', async (req, res) => {
   try {
     const barData = await getUserBar(username);
     console.log(`Successfully fetched bar data for ${username} via proxy.`);
-    res.json(barData);
+
+    // Extract and enrich only the product data
+    const enrichedProducts = barData
+      .map(item => {
+        if (item.product && item.product.id) {
+          const enrichedBottle = bottlesMap.get(item.product.id);
+          if (enrichedBottle) {
+            return enrichedBottle; // Return only the enriched bottle data
+          } else {
+            console.warn(`Enriched data not found for bottle ID (bar): ${item.product.id}`);
+          }
+        }
+        return null; // Return null if no product/ID or not found in map
+      })
+      .filter(Boolean); // Filter out null entries
+
+    res.json({ recommendations: enrichedProducts }); // Send data in the desired structure
   } catch (error) {
     console.error(`Error proxying bar data request for user ${username}:`, error);
     // Determine appropriate status code based on the error
@@ -323,7 +340,29 @@ router.get('/proxy/wishlist/:username', async (req, res) => {
 
     const wishlistData = await response.json();
     console.log(`Successfully fetched wishlist data for ${username} via proxy.`);
-    res.json(wishlistData);
+
+    // Extract and enrich only the product data for wishlist
+    const enrichedProducts = wishlistData
+      .map(item => {
+        // Assuming wishlist items might have a slightly different structure,
+        // check for product_id or release_id if product.id isn't directly there.
+        // Adjust the key lookup based on the actual structure of wishlist items.
+        // For now, assuming it's similar to bar items with item.product.id
+        const productId = item.product?.id; // Use optional chaining
+
+        if (productId) {
+          const enrichedBottle = bottlesMap.get(productId);
+          if (enrichedBottle) {
+            return enrichedBottle; // Return only the enriched bottle data
+          } else {
+            console.warn(`Enriched data not found for bottle ID (wishlist): ${productId}`);
+          }
+        }
+        return null; // Return null if no product/ID or not found in map
+      })
+      .filter(Boolean); // Filter out null entries
+
+    res.json({ recommendations: enrichedProducts }); // Send data in the desired structure
 
   } catch (error) {
     console.error(`Error proxying wishlist data request for user ${username}:`, error);
